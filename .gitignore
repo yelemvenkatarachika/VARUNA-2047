@@ -88,3 +88,5 @@ data/raw/satellite/*.zip
 # Temporary Generated Reports (keep structure and templates)
 reports/generated/*.tmp
 reports/generated/*.temp
+reports/generated/*.pdf
+reports/generated/*.temp

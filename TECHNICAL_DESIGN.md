@@ -12,52 +12,58 @@ VARUNA 2047 ingests global climate teleconnections and satellite Earth observati
 
 ```mermaid
 graph TD
-    subgraph Data Providers
-        A1[NOAA CPC ONI SST] --> S1[ingest_enso.py]
-        A2[NASA POWER Precipitation] --> S2[ingest_rainfall.py]
-        A3[ISRO Bhuvan WMS] --> S3[discover_isro.py]
-        A4[Sentinel-2 / MODIS NDVI] --> S4[process_vegetation.py]
+    subgraph Data_Providers ["Data Providers"]
+        A1["NOAA CPC ONI SST"] --> S1["ingest_enso.py"]
+        A2["NASA POWER Precipitation"] --> S2["ingest_rainfall.py"]
+        A3["ISRO Bhuvan WMS"] --> S3["discover_isro.py"]
+        A4["Sentinel-2 / MODIS NDVI"] --> S4["process_vegetation.py"]
     end
 
-    subgraph Data Processing & Geospatial Engine
-        S1 --> P1[(enso_history.json)]
-        S2 --> P2[(rainfall_history.json)]
-        S3 --> P3[(isro_provenance.json)]
-        S4 --> P4[(vegetation_history.json)]
-        S4 --> P5[(GeoTIFF Rasters)]
+    subgraph Data_Processing ["Data Processing & Geospatial Engine"]
+        S1 --> P1[("enso_history.json")]
+        S2 --> P2[("rainfall_history.json")]
+        S3 --> P3[("isro_provenance.json")]
+        S4 --> P4[("vegetation_history.json")]
+        S4 --> P5[("GeoTIFF Rasters")]
 
-        P1 & P2 & P4 --> FE[build_features.py]
-        FE --> MFD[(model_features_dataset.csv)]
+        P1 --> FE["build_features.py"]
+        P2 --> FE
+        P4 --> FE
+        FE --> MFD[("model_features_dataset.csv")]
     end
 
-    subgraph Machine Learning Engine
-        MFD --> TR[train_models.py]
-        TR --> M1[Climatology Baseline]
-        TR --> M2[ENSO-Only LR: ROC 0.7830]
-        TR --> M3[Climate LR]
-        TR --> M4[VARUNA Multimodal XGBoost]
-        TR --> EV[evaluate_models.py]
-        TR --> SH[shap_summary.json]
+    subgraph ML_Engine ["Machine Learning Engine"]
+        MFD --> TR["train_models.py"]
+        TR --> M1["Climatology Baseline"]
+        TR --> M2["ENSO-Only LR (ROC: 0.7830)"]
+        TR --> M3["Climate LR"]
+        TR --> M4["VARUNA Multimodal XGBoost"]
+        TR --> EV["evaluate_models.py"]
+        TR --> SH["shap_summary.json"]
     end
 
-    subgraph Backend API (FastAPI)
-        M2 & M4 & P1 & P2 & P4 --> API[FastAPI Application]
-        API --> EP1[/api/districts]
-        API --> EP2[/api/enso]
-        API --> EP3[/api/risk/predict]
-        API --> EP4[/api/resilience/prioritize]
-        API --> EP5[/api/reports/generate]
+    subgraph Backend_API ["Backend API (FastAPI)"]
+        M2 --> API["FastAPI Application"]
+        M4 --> API
+        P1 --> API
+        P2 --> API
+        P4 --> API
+        API --> EP1["/api/districts"]
+        API --> EP2["/api/enso"]
+        API --> EP3["/api/risk/predict"]
+        API --> EP4["/api/resilience/prioritize"]
+        API --> EP5["/api/reports/generate"]
     end
 
-    subgraph Frontend Application (Next.js 16 App Router)
-        API --> UI1[Mission Control]
-        API --> UI2[EO Explorer: MapLibre]
-        API --> UI3[ENSO Observatory]
-        API --> UI4[AI Risk Laboratory]
-        API --> UI5[Agricultural Stress Explorer]
-        API --> UI6[Resilience Planner]
-        API --> UI7[Evidence Reports PDF]
-        API --> UI8[Research & Provenance]
+    subgraph Frontend_App ["Frontend Application (Next.js 16)"]
+        API --> UI1["Mission Control"]
+        API --> UI2["EO Explorer (MapLibre)"]
+        API --> UI3["ENSO Observatory"]
+        API --> UI4["AI Risk Laboratory"]
+        API --> UI5["Agricultural Stress Explorer"]
+        API --> UI6["Resilience Planner"]
+        API --> UI7["Evidence Reports PDF"]
+        API --> UI8["Research & Provenance"]
     end
 ```
 
@@ -81,11 +87,28 @@ graph TD
 A fundamental integrity requirement of VARUNA 2047 is strict chronological separation:
 
 ```mermaid
-timeline
-    title Scientific Timeline & Pre-Monsoon Issuance Boundary
-    Pre-Season (MAM) : NOAA Niño 3.4 MAM Anomaly : Pre-monsoon MAM Rainfall : May Sentinel-2 NDVI
-    Issuance Date (May 31) : Forecast Issuance Cutoff : Model Prediction Locked : Zero Target Leakage
-    Monsoon Season (JJAS) : Southwest Monsoon Rainfall (Target) : August Peak Canopy Flush : Ground Truthing & Verification
+flowchart LR
+    subgraph PreSeason ["Pre-Season (MAM)"]
+        direction TB
+        E1["NOAA Niño 3.4 MAM Anomaly"]
+        E2["Pre-monsoon MAM Rainfall"]
+        E3["May Sentinel-2 NDVI"]
+    end
+
+    subgraph Cutoff ["Issuance Cutoff (May 31)"]
+        direction TB
+        C1["Forecast Issuance Locked"]
+        C2["Zero Target Leakage Guard"]
+    end
+
+    subgraph Monsoon ["Monsoon Season (JJAS)"]
+        direction TB
+        M1["Southwest Monsoon Rainfall Target"]
+        M2["August Peak Canopy Flush"]
+        M3["Ground Truthing & Verification"]
+    end
+
+    PreSeason --> Cutoff --> Monsoon
 ```
 
 - **Feature Predictors ($X$):** Must be observable on or before **May 31**.
@@ -113,9 +136,9 @@ Where:
 
 ```mermaid
 graph LR
-    User[Web Browser Client] -->|HTTPS: Port 3000| NGINX[Next.js Production Runner]
-    NGINX -->|REST API: Port 8000| API[FastAPI Uvicorn Worker]
-    API -->|Read| FS[(Processed JSON & GeoTIFFs)]
-    API -->|Inference| ML[(Joblib ML Artifacts)]
-    API -->|PDF Stream| PDF[ReportLab Engine]
+    User["Web Browser Client"] -->|HTTPS: Port 3000| NGINX["Next.js Production Runner"]
+    NGINX -->|REST API: Port 8000| API["FastAPI Uvicorn Worker"]
+    API -->|Read| FS[("Processed JSON & GeoTIFFs")]
+    API -->|Inference| ML[("Joblib ML Artifacts")]
+    API -->|PDF Stream| PDF["ReportLab Engine"]
 ```

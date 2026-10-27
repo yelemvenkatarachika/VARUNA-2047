@@ -167,11 +167,25 @@ graph TD
         CATALOG["forest_satellite_scenes.json"]
     end
 
-    AWS --> B04_2019 & B08_2019 & SCL_2019 & B04_2024 & B08_2024 & SCL_2024
-    B04_2019 & B08_2019 & SCL_2019 & B04_2024 & B08_2024 & SCL_2024 --> WINDOW
+    AWS --> B04_2019
+    AWS --> B08_2019
+    AWS --> SCL_2019
+    AWS --> B04_2024
+    AWS --> B08_2024
+    AWS --> SCL_2024
+
+    B04_2019 --> WINDOW
+    B08_2019 --> WINDOW
+    SCL_2019 --> WINDOW
+    B04_2024 --> WINDOW
+    B08_2024 --> WINDOW
+    SCL_2024 --> WINDOW
+
     WINDOW --> CLOUD_MASK
-    CLOUD_MASK --> NDVI_2019 & NDVI_2024
-    NDVI_2019 & NDVI_2024 --> DELTA_NDVI
+    CLOUD_MASK --> NDVI_2019
+    CLOUD_MASK --> NDVI_2024
+    NDVI_2019 --> DELTA_NDVI
+    NDVI_2024 --> DELTA_NDVI
     DELTA_NDVI --> CANOPY_MASK
     CANOPY_MASK --> DISTURB_THRESH
     DISTURB_THRESH --> LOSS_CALC
@@ -236,7 +250,8 @@ graph TD
     ModelTraining --> M4
     M4 --> Explainability
     M4 --> RealTimeInference
-    INPUT --> XGB_INFER --> TIER
+    INPUT --> XGB_INFER
+    XGB_INFER --> TIER
 ```
 
 ---
