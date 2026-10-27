@@ -1,0 +1,445 @@
+{
+  "metadata": {
+    "provider": "NOAA Climate Prediction Center (CPC)",
+    "product_name": "Oceanic Ni\u00f1o Index (ONI) - ERSST.v5 Ni\u00f1o 3.4 SST Anomalies",
+    "source_url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
+    "spatial_coverage": "Ni\u00f1o 3.4 Region (5\u00b0N-5\u00b0S, 120\u00b0-170\u00b0W)",
+    "spatial_resolution": "Area-averaged gridded SST",
+    "temporal_resolution": "3-month running mean (Monthly timestep)",
+    "time_range": "1950 to 2026",
+    "total_observations": 920,
+    "total_historical_events": 42,
+    "retrieval_timestamp": "2026-10-26T16:11:56.460378Z",
+    "classification_rule": "NOAA CPC official 5-consecutive-season threshold (+/- 0.5 \u00b0C)",
+    "latest_observation": {
+      "season": "JAS",
+      "year": 2026,
+      "total_sst": 29.12,
+      "anomaly": 2.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    }
+  },
+  "events": [
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "DJF",
+      "start_year": 1950,
+      "end_season": "DJF",
+      "end_year": 1951,
+      "duration_seasons": 13,
+      "peak_anomaly": -1.32,
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "MJJ",
+      "start_year": 1951,
+      "end_season": "DJF",
+      "end_year": 1952,
+      "duration_seasons": 8,
+      "peak_anomaly": 1.03,
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "MAM",
+      "start_year": 1953,
+      "end_season": "NDJ",
+      "end_year": 1953,
+      "duration_seasons": 9,
+      "peak_anomaly": 0.78,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "FMA",
+      "start_year": 1955,
+      "end_season": "MAM",
+      "end_year": 1956,
+      "duration_seasons": 14,
+      "peak_anomaly": -1.59,
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "MAM",
+      "start_year": 1957,
+      "end_season": "AMJ",
+      "end_year": 1958,
+      "duration_seasons": 14,
+      "peak_anomaly": 1.69,
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "JJA",
+      "start_year": 1963,
+      "end_season": "JFM",
+      "end_year": 1964,
+      "duration_seasons": 8,
+      "peak_anomaly": 1.19,
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "AMJ",
+      "start_year": 1964,
+      "end_season": "DJF",
+      "end_year": 1965,
+      "duration_seasons": 9,
+      "peak_anomaly": -0.8,
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "MJJ",
+      "start_year": 1965,
+      "end_season": "FMA",
+      "end_year": 1966,
+      "duration_seasons": 10,
+      "peak_anomaly": 1.82,
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "SON",
+      "start_year": 1968,
+      "end_season": "AMJ",
+      "end_year": 1969,
+      "duration_seasons": 8,
+      "peak_anomaly": 0.98,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "JJA",
+      "start_year": 1970,
+      "end_season": "DJF",
+      "end_year": 1972,
+      "duration_seasons": 19,
+      "peak_anomaly": -1.36,
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "MJJ",
+      "start_year": 1972,
+      "end_season": "FMA",
+      "end_year": 1973,
+      "duration_seasons": 10,
+      "peak_anomaly": 1.84,
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "AMJ",
+      "start_year": 1973,
+      "end_season": "MJJ",
+      "end_year": 1974,
+      "duration_seasons": 14,
+      "peak_anomaly": -2.04,
+      "intensity": "Very Strong La Ni\u00f1a"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "SON",
+      "start_year": 1974,
+      "end_season": "FMA",
+      "end_year": 1976,
+      "duration_seasons": 18,
+      "peak_anomaly": -1.58,
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "ASO",
+      "start_year": 1976,
+      "end_season": "JFM",
+      "end_year": 1977,
+      "duration_seasons": 6,
+      "peak_anomaly": 0.84,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "SON",
+      "start_year": 1977,
+      "end_season": "JFM",
+      "end_year": 1978,
+      "duration_seasons": 5,
+      "peak_anomaly": 0.84,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "AMJ",
+      "start_year": 1982,
+      "end_season": "MJJ",
+      "end_year": 1983,
+      "duration_seasons": 14,
+      "peak_anomaly": 2.14,
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "SON",
+      "start_year": 1983,
+      "end_season": "JFM",
+      "end_year": 1984,
+      "duration_seasons": 5,
+      "peak_anomaly": -0.96,
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "SON",
+      "start_year": 1984,
+      "end_season": "MJJ",
+      "end_year": 1985,
+      "duration_seasons": 9,
+      "peak_anomaly": -1.06,
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "ASO",
+      "start_year": 1986,
+      "end_season": "DJF",
+      "end_year": 1988,
+      "duration_seasons": 17,
+      "peak_anomaly": 1.49,
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "AMJ",
+      "start_year": 1988,
+      "end_season": "AMJ",
+      "end_year": 1989,
+      "duration_seasons": 13,
+      "peak_anomaly": -1.85,
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "MJJ",
+      "start_year": 1991,
+      "end_season": "MJJ",
+      "end_year": 1992,
+      "duration_seasons": 13,
+      "peak_anomaly": 1.54,
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "SON",
+      "start_year": 1994,
+      "end_season": "JFM",
+      "end_year": 1995,
+      "duration_seasons": 5,
+      "peak_anomaly": 0.97,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "JAS",
+      "start_year": 1995,
+      "end_season": "FMA",
+      "end_year": 1996,
+      "duration_seasons": 8,
+      "peak_anomaly": -1.05,
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "AMJ",
+      "start_year": 1997,
+      "end_season": "MAM",
+      "end_year": 1998,
+      "duration_seasons": 12,
+      "peak_anomaly": 2.37,
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "JJA",
+      "start_year": 1998,
+      "end_season": "MJJ",
+      "end_year": 2000,
+      "duration_seasons": 24,
+      "peak_anomaly": -1.53,
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "SON",
+      "start_year": 2000,
+      "end_season": "JFM",
+      "end_year": 2001,
+      "duration_seasons": 5,
+      "peak_anomaly": -0.78,
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "JJA",
+      "start_year": 2002,
+      "end_season": "JFM",
+      "end_year": 2003,
+      "duration_seasons": 8,
+      "peak_anomaly": 1.19,
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "JAS",
+      "start_year": 2004,
+      "end_season": "JFM",
+      "end_year": 2005,
+      "duration_seasons": 7,
+      "peak_anomaly": 0.71,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "OND",
+      "start_year": 2005,
+      "end_season": "FMA",
+      "end_year": 2006,
+      "duration_seasons": 5,
+      "peak_anomaly": -0.86,
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "ASO",
+      "start_year": 2006,
+      "end_season": "DJF",
+      "end_year": 2007,
+      "duration_seasons": 5,
+      "peak_anomaly": 0.88,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "JAS",
+      "start_year": 2007,
+      "end_season": "MJJ",
+      "end_year": 2008,
+      "duration_seasons": 11,
+      "peak_anomaly": -1.76,
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "OND",
+      "start_year": 2008,
+      "end_season": "FMA",
+      "end_year": 2009,
+      "duration_seasons": 5,
+      "peak_anomaly": -0.89,
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "JJA",
+      "start_year": 2009,
+      "end_season": "FMA",
+      "end_year": 2010,
+      "duration_seasons": 9,
+      "peak_anomaly": 1.5,
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "MJJ",
+      "start_year": 2010,
+      "end_season": "AMJ",
+      "end_year": 2011,
+      "duration_seasons": 12,
+      "peak_anomaly": -1.57,
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "JAS",
+      "start_year": 2011,
+      "end_season": "JFM",
+      "end_year": 2012,
+      "duration_seasons": 7,
+      "peak_anomaly": -1.02,
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "SON",
+      "start_year": 2014,
+      "end_season": "AMJ",
+      "end_year": 2016,
+      "duration_seasons": 20,
+      "peak_anomaly": 2.59,
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "OND",
+      "start_year": 2017,
+      "end_season": "FMA",
+      "end_year": 2018,
+      "duration_seasons": 5,
+      "peak_anomaly": -0.76,
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "ASO",
+      "start_year": 2018,
+      "end_season": "MJJ",
+      "end_year": 2019,
+      "duration_seasons": 10,
+      "peak_anomaly": 1.05,
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "SON",
+      "start_year": 2019,
+      "end_season": "FMA",
+      "end_year": 2020,
+      "duration_seasons": 6,
+      "peak_anomaly": 0.75,
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "ASO",
+      "start_year": 2020,
+      "end_season": "MAM",
+      "end_year": 2021,
+      "duration_seasons": 8,
+      "peak_anomaly": -1.11,
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "phase": "La Ni\u00f1a",
+      "start_season": "ASO",
+      "start_year": 2021,
+      "end_season": "DJF",
+      "end_year": 2023,
+      "duration_seasons": 17,
+      "peak_anomaly": -0.91,
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "phase": "El Ni\u00f1o",
+      "start_season": "MJJ",
+      "start_year": 2023,
+      "end_season": "MAM",
+      "end_year": 2024,
+      "duration_seasons": 11,
+      "peak_anomaly": 1.99,
+      "intensity": "Strong El Ni\u00f1o"
+    }
+  ]
+}

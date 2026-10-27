@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-10-26T16:13:05.553744+00:00",
+  "project": "VARUNA 2047",
+  "investigation_scope": "ISRO Earth Observation & Geospatial Web Services Compliance",
+  "summary": "VARUNA 2047 conducted a systematic technical audit of ISRO Bhuvan, VEDAS, MOSDAC, and Bhoonidhi services. ISRO Bhuvan Open Vector WMS is verified as active and accessible for map overlays. Furthermore, official ISRO thematic layers (sisdpv2:TS_Warangal_lulc_v2 for SISDP-2 Land Use / Land Cover and gw:TELANGANA_PRE for RGNDWM Ground Water Prospects) were discovered in the GetCapabilities document and verified via live GetMap requests (HTTP 200). For full-resolution multi-decadal raster pixel processing, ISRO Bhoonidhi requires user-authenticated batch ordering with CAPTCHA tokens; therefore, analytical GeoTIFF rasters in VARUNA 2047 are biophysical simulations generated for engine testing and clearly disclosed as simulations.",
+  "services": [
+    {
+      "platform": "ISRO Bhuvan (NRSC)",
+      "service_name": "Bhuvan Open Vector WMS",
+      "base_url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms",
+      "description": "National Remote Sensing Centre (NRSC) Official WMS providing Indian base layers, administrative boundaries, and thematic cartography.",
+      "intended_use": "Base map cartography, district contextualization, national geospatial alignment.",
+      "tested_at": "2026-10-26T16:12:33.818847+00:00",
+      "accessible_without_auth": true,
+      "http_status": 200,
+      "capabilities_parsed": true,
+      "available_layers": [
+        "bhuvan:telangana_district_boundary",
+        "sisdpv2:TS_Warangal_lulc_v2",
+        "gw:TELANGANA_PRE",
+        "gw:TELANGANA_POST"
+      ],
+      "supported_crs": [
+        "EPSG:4326",
+        "EPSG:3857"
+      ],
+      "integration_modality": "Live WMS Thematic & Administrative Layers",
+      "technical_limitation_notes": "Public WMS endpoint permits live map tile rendering without API credentials. Verified layers include SISDP Land Use/Cover and Ground Water Prospects. Bulk raw scene GeoTIFF downloads require authenticated Bhoonidhi SSO sessions."
+    },
+    {
+      "platform": "ISRO Bhuvan (NRSC)",
+      "service_name": "Bhuvan Thematic LULC 1:50K",
+      "base_url": "https://bhuvan-app1.nrsc.gov.in/thematic/thematic/wms",
+      "description": "Land Use / Land Cover 1:50,000 national agricultural and vegetation classification maps.",
+      "intended_use": "Agricultural land cover validation and crop area verification.",
+      "tested_at": "2026-10-26T16:12:39.939446+00:00",
+      "accessible_without_auth": false,
+      "http_status": 404,
+      "capabilities_parsed": false,
+      "available_layers": [],
+      "supported_crs": [],
+      "integration_modality": "Documentation & Attribution",
+      "technical_limitation_notes": "HTTP 404 returned during discovery check; thematic layers are instead accessed via bhuvan-vec1."
+    },
+    {
+      "platform": "ISRO VEDAS (SAC)",
+      "service_name": "VEDAS Agricultural & Climate Applications",
+      "base_url": "https://vedas.sac.gov.in/geoserver/wms",
+      "description": "Space Applications Centre (SAC) thematic portal for vegetation monitoring, desertification, and agricultural drought indices.",
+      "intended_use": "Agricultural drought assessment, seasonal NDVI anomalies.",
+      "tested_at": "2026-10-26T16:12:40.262534+00:00",
+      "accessible_without_auth": false,
+      "http_status": 404,
+      "capabilities_parsed": false,
+      "available_layers": [],
+      "supported_crs": [],
+      "integration_modality": "Documentation & Attribution",
+      "technical_limitation_notes": "HTTP 404 returned during direct WMS check."
+    },
+    {
+      "platform": "ISRO MOSDAC (SAC)",
+      "service_name": "MOSDAC Satellite Weather Products",
+      "base_url": "https://www.mosdac.gov.in/",
+      "description": "Meteorological and oceanographic data from INSAT-3D, INSAT-3DR, and SCATSAT satellites.",
+      "intended_use": "Real-time satellite precipitation estimates and ocean surface winds.",
+      "tested_at": "2026-10-26T16:12:52.443344+00:00",
+      "accessible_without_auth": true,
+      "http_status": 200,
+      "capabilities_parsed": false,
+      "available_layers": [],
+      "supported_crs": [],
+      "integration_modality": "Portal Verification & Reference",
+      "technical_limitation_notes": "Portal page returned HTTP 200; WMS GetCapabilities requires specific subsystem tokens or redirect."
+    },
+    {
+      "platform": "ISRO Bhoonidhi (NRSC)",
+      "service_name": "Bhoonidhi Earth Observation Data Hub",
+      "base_url": "https://bhoonidhi.nrsc.gov.in/bhoonidhi/",
+      "description": "Open data dissemination portal for Resourcesat, Cartosat, and Oceansat data.",
+      "intended_use": "Raw multi-spectral satellite imagery downloads.",
+      "tested_at": "2026-10-26T16:13:04.998819+00:00",
+      "accessible_without_auth": true,
+      "http_status": 200,
+      "capabilities_parsed": false,
+      "available_layers": [],
+      "supported_crs": [],
+      "integration_modality": "Portal Verification & Reference",
+      "technical_limitation_notes": "Portal page returned HTTP 200; direct programmatic tile ingestion is blocked by SSO and CAPTCHA."
+    }
+  ],
+  "verified_isro_wms_layers": [
+    {
+      "layer_id": "bhuvan_telangana_districts",
+      "title": "ISRO Bhuvan Telangana District Administrative Boundary",
+      "layer_name": "bhuvan:telangana_district_boundary",
+      "url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=bhuvan:telangana_district_boundary&SRS=EPSG:4326&BBOX=77.5,16.8,81.0,20.2&WIDTH=512&HEIGHT=512&FORMAT=image/png",
+      "attribution": "ISRO / NRSC Bhuvan Geoportal",
+      "status": "Verified Active (HTTP 200)"
+    },
+    {
+      "layer_id": "isro_sisdp_warangal_lulc",
+      "title": "ISRO NRSC SISDP-2 Land Use / Land Cover (Warangal)",
+      "layer_name": "sisdpv2:TS_Warangal_lulc_v2",
+      "url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=sisdpv2:TS_Warangal_lulc_v2&SRS=EPSG:4326&BBOX=79.0,17.5,80.5,18.5&WIDTH=512&HEIGHT=512&FORMAT=image/png",
+      "attribution": "ISRO / NRSC Space Based Information Support for Decentralised Planning (SISDP)",
+      "status": "Verified Active (HTTP 200, 78 KB PNG)"
+    },
+    {
+      "layer_id": "isro_groundwater_premonsoon",
+      "title": "ISRO Ground Water Prospects - Pre-Monsoon",
+      "layer_name": "gw:TELANGANA_PRE",
+      "url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=gw:TELANGANA_PRE&SRS=EPSG:4326&BBOX=77.5,16.8,81.0,20.2&WIDTH=512&HEIGHT=512&FORMAT=image/png",
+      "attribution": "ISRO / NRSC Rajiv Gandhi National Drinking Water Mission",
+      "status": "Verified Active (HTTP 200, 77 KB PNG)"
+    }
+  ]
+}

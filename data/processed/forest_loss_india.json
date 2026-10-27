@@ -1,0 +1,590 @@
+{
+  "metadata": {
+    "source_authority": "Forest Survey of India (ISFR 2021/2023) & Hansen Global Forest Change v1.11",
+    "spatial_resolution": "30 meters (Landsat 7/8/9 surface reflectance)",
+    "canopy_cover_threshold": ">= 30% tree canopy cover",
+    "time_span": "2001\u20132023 annual observations",
+    "units": "Hectares (ha) and percentage of baseline forest cover"
+  },
+  "national_annual_loss_ha": {
+    "2001": 58240,
+    "2002": 64120,
+    "2003": 59800,
+    "2004": 71200,
+    "2005": 68450,
+    "2006": 76300,
+    "2007": 82100,
+    "2008": 79400,
+    "2009": 88500,
+    "2010": 94200,
+    "2011": 89300,
+    "2012": 96800,
+    "2013": 104200,
+    "2014": 112500,
+    "2015": 118400,
+    "2016": 142100,
+    "2017": 154800,
+    "2018": 131200,
+    "2019": 124500,
+    "2020": 132400,
+    "2021": 127800,
+    "2022": 119400,
+    "2023": 122100
+  },
+  "states": {
+    "AP": {
+      "baseline_forest_ha": 2978400,
+      "vdf_ha": 199400,
+      "mdf_ha": 1392900,
+      "of_ha": 1386100,
+      "loss_2023_ha": 3450,
+      "loss_2022_ha": 3210,
+      "loss_2021_ha": 3680,
+      "loss_2020_ha": 3890,
+      "total_loss_2001_2023_ha": 68400
+    },
+    "AR": {
+      "baseline_forest_ha": 6643100,
+      "vdf_ha": 2105800,
+      "mdf_ha": 3017600,
+      "of_ha": 1519700,
+      "loss_2023_ha": 18200,
+      "loss_2022_ha": 17400,
+      "loss_2021_ha": 19500,
+      "loss_2020_ha": 21000,
+      "total_loss_2001_2023_ha": 248000
+    },
+    "AS": {
+      "baseline_forest_ha": 2683200,
+      "vdf_ha": 268800,
+      "mdf_ha": 968600,
+      "of_ha": 1445800,
+      "loss_2023_ha": 14100,
+      "loss_2022_ha": 13500,
+      "loss_2021_ha": 15200,
+      "loss_2020_ha": 16800,
+      "total_loss_2001_2023_ha": 286000
+    },
+    "BR": {
+      "baseline_forest_ha": 738100,
+      "vdf_ha": 33300,
+      "mdf_ha": 328600,
+      "of_ha": 376200,
+      "loss_2023_ha": 420,
+      "loss_2022_ha": 380,
+      "loss_2021_ha": 460,
+      "loss_2020_ha": 510,
+      "total_loss_2001_2023_ha": 8900
+    },
+    "CG": {
+      "baseline_forest_ha": 5571700,
+      "vdf_ha": 706800,
+      "mdf_ha": 3227800,
+      "of_ha": 1637100,
+      "loss_2023_ha": 8600,
+      "loss_2022_ha": 8100,
+      "loss_2021_ha": 9200,
+      "loss_2020_ha": 9800,
+      "total_loss_2001_2023_ha": 124000
+    },
+    "GA": {
+      "baseline_forest_ha": 224400,
+      "vdf_ha": 53800,
+      "mdf_ha": 57600,
+      "of_ha": 113000,
+      "loss_2023_ha": 310,
+      "loss_2022_ha": 290,
+      "loss_2021_ha": 340,
+      "loss_2020_ha": 380,
+      "total_loss_2001_2023_ha": 5600
+    },
+    "GJ": {
+      "baseline_forest_ha": 1492600,
+      "vdf_ha": 37800,
+      "mdf_ha": 522000,
+      "of_ha": 932800,
+      "loss_2023_ha": 1100,
+      "loss_2022_ha": 1050,
+      "loss_2021_ha": 1250,
+      "loss_2020_ha": 1340,
+      "total_loss_2001_2023_ha": 18200
+    },
+    "HR": {
+      "baseline_forest_ha": 160300,
+      "vdf_ha": 2800,
+      "mdf_ha": 44500,
+      "of_ha": 113000,
+      "loss_2023_ha": 120,
+      "loss_2022_ha": 110,
+      "loss_2021_ha": 130,
+      "loss_2020_ha": 150,
+      "total_loss_2001_2023_ha": 2100
+    },
+    "HP": {
+      "baseline_forest_ha": 1544300,
+      "vdf_ha": 316300,
+      "mdf_ha": 710000,
+      "of_ha": 518000,
+      "loss_2023_ha": 980,
+      "loss_2022_ha": 920,
+      "loss_2021_ha": 1050,
+      "loss_2020_ha": 1150,
+      "total_loss_2001_2023_ha": 15800
+    },
+    "JH": {
+      "baseline_forest_ha": 2372100,
+      "vdf_ha": 260100,
+      "mdf_ha": 968900,
+      "of_ha": 1143100,
+      "loss_2023_ha": 3100,
+      "loss_2022_ha": 2950,
+      "loss_2021_ha": 3340,
+      "loss_2020_ha": 3580,
+      "total_loss_2001_2023_ha": 48200
+    },
+    "KA": {
+      "baseline_forest_ha": 3873000,
+      "vdf_ha": 450100,
+      "mdf_ha": 2104800,
+      "of_ha": 1318100,
+      "loss_2023_ha": 4900,
+      "loss_2022_ha": 4600,
+      "loss_2021_ha": 5200,
+      "loss_2020_ha": 5600,
+      "total_loss_2001_2023_ha": 78200
+    },
+    "KL": {
+      "baseline_forest_ha": 2125300,
+      "vdf_ha": 194400,
+      "mdf_ha": 947200,
+      "of_ha": 983700,
+      "loss_2023_ha": 2100,
+      "loss_2022_ha": 1980,
+      "loss_2021_ha": 2300,
+      "loss_2020_ha": 2450,
+      "total_loss_2001_2023_ha": 36400
+    },
+    "MP": {
+      "baseline_forest_ha": 7749300,
+      "vdf_ha": 666500,
+      "mdf_ha": 3420900,
+      "of_ha": 3661900,
+      "loss_2023_ha": 9400,
+      "loss_2022_ha": 8900,
+      "loss_2021_ha": 10100,
+      "loss_2020_ha": 10800,
+      "total_loss_2001_2023_ha": 142000
+    },
+    "MH": {
+      "baseline_forest_ha": 5079800,
+      "vdf_ha": 872100,
+      "mdf_ha": 2056200,
+      "of_ha": 2151500,
+      "loss_2023_ha": 6200,
+      "loss_2022_ha": 5800,
+      "loss_2021_ha": 6700,
+      "loss_2020_ha": 7100,
+      "total_loss_2001_2023_ha": 94500
+    },
+    "MN": {
+      "baseline_forest_ha": 1659800,
+      "vdf_ha": 90500,
+      "mdf_ha": 638800,
+      "of_ha": 930500,
+      "loss_2023_ha": 8900,
+      "loss_2022_ha": 8400,
+      "loss_2021_ha": 9500,
+      "loss_2020_ha": 10200,
+      "total_loss_2001_2023_ha": 195000
+    },
+    "ML": {
+      "baseline_forest_ha": 1704600,
+      "vdf_ha": 56000,
+      "mdf_ha": 916000,
+      "of_ha": 732600,
+      "loss_2023_ha": 7800,
+      "loss_2022_ha": 7400,
+      "loss_2021_ha": 8300,
+      "loss_2020_ha": 8900,
+      "total_loss_2001_2023_ha": 182000
+    },
+    "MZ": {
+      "baseline_forest_ha": 1782000,
+      "vdf_ha": 15700,
+      "mdf_ha": 571500,
+      "of_ha": 1194800,
+      "loss_2023_ha": 11200,
+      "loss_2022_ha": 10700,
+      "loss_2021_ha": 12100,
+      "loss_2020_ha": 13000,
+      "total_loss_2001_2023_ha": 215000
+    },
+    "NL": {
+      "baseline_forest_ha": 1225100,
+      "vdf_ha": 127000,
+      "mdf_ha": 444900,
+      "of_ha": 653200,
+      "loss_2023_ha": 6400,
+      "loss_2022_ha": 6100,
+      "loss_2021_ha": 6900,
+      "loss_2020_ha": 7400,
+      "total_loss_2001_2023_ha": 142000
+    },
+    "OD": {
+      "baseline_forest_ha": 5215600,
+      "vdf_ha": 721300,
+      "mdf_ha": 2099100,
+      "of_ha": 2395200,
+      "loss_2023_ha": 6800,
+      "loss_2022_ha": 6400,
+      "loss_2021_ha": 7300,
+      "loss_2020_ha": 7900,
+      "total_loss_2001_2023_ha": 118000
+    },
+    "PB": {
+      "baseline_forest_ha": 184700,
+      "vdf_ha": 1000,
+      "mdf_ha": 79300,
+      "of_ha": 104400,
+      "loss_2023_ha": 160,
+      "loss_2022_ha": 150,
+      "loss_2021_ha": 180,
+      "loss_2020_ha": 200,
+      "total_loss_2001_2023_ha": 3100
+    },
+    "RJ": {
+      "baseline_forest_ha": 1665500,
+      "vdf_ha": 7200,
+      "mdf_ha": 436800,
+      "of_ha": 1221500,
+      "loss_2023_ha": 920,
+      "loss_2022_ha": 870,
+      "loss_2021_ha": 990,
+      "loss_2020_ha": 1080,
+      "total_loss_2001_2023_ha": 14800
+    },
+    "SK": {
+      "baseline_forest_ha": 334100,
+      "vdf_ha": 110200,
+      "mdf_ha": 148800,
+      "of_ha": 75100,
+      "loss_2023_ha": 190,
+      "loss_2022_ha": 180,
+      "loss_2021_ha": 210,
+      "loss_2020_ha": 230,
+      "total_loss_2001_2023_ha": 3800
+    },
+    "TN": {
+      "baseline_forest_ha": 2641900,
+      "vdf_ha": 359300,
+      "mdf_ha": 1103400,
+      "of_ha": 1179200,
+      "loss_2023_ha": 2800,
+      "loss_2022_ha": 2650,
+      "loss_2021_ha": 2980,
+      "loss_2020_ha": 3200,
+      "total_loss_2001_2023_ha": 45800
+    },
+    "TS": {
+      "baseline_forest_ha": 2121400,
+      "vdf_ha": 162400,
+      "mdf_ha": 878200,
+      "of_ha": 1080800,
+      "loss_2023_ha": 2980,
+      "loss_2022_ha": 2790,
+      "loss_2021_ha": 3240,
+      "loss_2020_ha": 3490,
+      "total_loss_2001_2023_ha": 49800
+    },
+    "TR": {
+      "baseline_forest_ha": 772600,
+      "vdf_ha": 65400,
+      "mdf_ha": 523600,
+      "of_ha": 183600,
+      "loss_2023_ha": 4100,
+      "loss_2022_ha": 3900,
+      "loss_2021_ha": 4400,
+      "loss_2020_ha": 4700,
+      "total_loss_2001_2023_ha": 79500
+    },
+    "UP": {
+      "baseline_forest_ha": 1481800,
+      "vdf_ha": 261700,
+      "mdf_ha": 402900,
+      "of_ha": 817200,
+      "loss_2023_ha": 1250,
+      "loss_2022_ha": 1180,
+      "loss_2021_ha": 1340,
+      "loss_2020_ha": 1460,
+      "total_loss_2001_2023_ha": 21000
+    },
+    "UK": {
+      "baseline_forest_ha": 2430500,
+      "vdf_ha": 505500,
+      "mdf_ha": 1276800,
+      "of_ha": 648200,
+      "loss_2023_ha": 1850,
+      "loss_2022_ha": 1740,
+      "loss_2021_ha": 1980,
+      "loss_2020_ha": 2150,
+      "total_loss_2001_2023_ha": 32500
+    },
+    "WB": {
+      "baseline_forest_ha": 1683200,
+      "vdf_ha": 298400,
+      "mdf_ha": 478600,
+      "of_ha": 906200,
+      "loss_2023_ha": 1950,
+      "loss_2022_ha": 1840,
+      "loss_2021_ha": 2100,
+      "loss_2020_ha": 2280,
+      "total_loss_2001_2023_ha": 31200
+    },
+    "AN": {
+      "baseline_forest_ha": 674300,
+      "vdf_ha": 567800,
+      "mdf_ha": 68400,
+      "of_ha": 38100,
+      "loss_2023_ha": 340,
+      "loss_2022_ha": 320,
+      "loss_2021_ha": 360,
+      "loss_2020_ha": 390,
+      "total_loss_2001_2023_ha": 5900
+    },
+    "CH": {
+      "baseline_forest_ha": 2300,
+      "vdf_ha": 100,
+      "mdf_ha": 1400,
+      "of_ha": 800,
+      "loss_2023_ha": 2,
+      "loss_2022_ha": 2,
+      "loss_2021_ha": 3,
+      "loss_2020_ha": 3,
+      "total_loss_2001_2023_ha": 45
+    },
+    "DN": {
+      "baseline_forest_ha": 22700,
+      "vdf_ha": 100,
+      "mdf_ha": 8000,
+      "of_ha": 14600,
+      "loss_2023_ha": 18,
+      "loss_2022_ha": 16,
+      "loss_2021_ha": 20,
+      "loss_2020_ha": 22,
+      "total_loss_2001_2023_ha": 310
+    },
+    "DL": {
+      "baseline_forest_ha": 19500,
+      "vdf_ha": 670,
+      "mdf_ha": 5640,
+      "of_ha": 13190,
+      "loss_2023_ha": 25,
+      "loss_2022_ha": 22,
+      "loss_2021_ha": 28,
+      "loss_2020_ha": 31,
+      "total_loss_2001_2023_ha": 420
+    },
+    "JK": {
+      "baseline_forest_ha": 2138700,
+      "vdf_ha": 409700,
+      "mdf_ha": 863700,
+      "of_ha": 865300,
+      "loss_2023_ha": 1150,
+      "loss_2022_ha": 1080,
+      "loss_2021_ha": 1240,
+      "loss_2020_ha": 1350,
+      "total_loss_2001_2023_ha": 19200
+    },
+    "LA": {
+      "baseline_forest_ha": 227200,
+      "vdf_ha": 200,
+      "mdf_ha": 54000,
+      "of_ha": 173000,
+      "loss_2023_ha": 45,
+      "loss_2022_ha": 40,
+      "loss_2021_ha": 50,
+      "loss_2020_ha": 55,
+      "total_loss_2001_2023_ha": 720
+    },
+    "LD": {
+      "baseline_forest_ha": 2700,
+      "vdf_ha": 0,
+      "mdf_ha": 1700,
+      "of_ha": 1000,
+      "loss_2023_ha": 1,
+      "loss_2022_ha": 1,
+      "loss_2021_ha": 1,
+      "loss_2020_ha": 2,
+      "total_loss_2001_2023_ha": 18
+    },
+    "PY": {
+      "baseline_forest_ha": 5300,
+      "vdf_ha": 0,
+      "mdf_ha": 1800,
+      "of_ha": 3500,
+      "loss_2023_ha": 4,
+      "loss_2022_ha": 4,
+      "loss_2021_ha": 5,
+      "loss_2020_ha": 5,
+      "total_loss_2001_2023_ha": 74
+    }
+  },
+  "districts": {
+    "WAR": {
+      "baseline_ha": 38200,
+      "history": {
+        "2018": 48.0,
+        "2019": 44.5,
+        "2020": 51.0,
+        "2021": 45.2,
+        "2022": 38.1
+      },
+      "canopy_class": "OF",
+      "reproduction_status": "UNVERIFIED_PENDING_RAW_L2A_DOWNLOAD"
+    },
+    "HAN": {
+      "baseline_ha": 4800,
+      "history": {
+        "2018": 12.0,
+        "2019": 10.5,
+        "2020": 11.2,
+        "2021": 9.1,
+        "2022": 7.4,
+        "2023": 8.2
+      },
+      "canopy_class": "OF"
+    },
+    "ADI": {
+      "baseline_ha": 178200,
+      "history": {
+        "2018": 275.0,
+        "2019": 250.0,
+        "2020": 260.5,
+        "2021": 242.0,
+        "2022": 195.2,
+        "2023": 218.4
+      },
+      "canopy_class": "MDF"
+    },
+    "NIZ": {
+      "baseline_ha": 87500,
+      "history": {
+        "2018": 85.0,
+        "2019": 78.0,
+        "2020": 79.8,
+        "2021": 71.3,
+        "2022": 58.7,
+        "2023": 64.1
+      },
+      "canopy_class": "OF"
+    },
+    "KAR": {
+      "baseline_ha": 19400,
+      "history": {
+        "2018": 36.0,
+        "2019": 32.0,
+        "2020": 34.0,
+        "2021": 28.4,
+        "2022": 21.0,
+        "2023": 25.3
+      },
+      "canopy_class": "OF"
+    },
+    "KHA": {
+      "baseline_ha": 142000,
+      "history": {
+        "2018": 230.0,
+        "2019": 210.0,
+        "2020": 215.3,
+        "2021": 198.6,
+        "2022": 172.4,
+        "2023": 185.0
+      },
+      "canopy_class": "MDF"
+    },
+    "GAD": {
+      "baseline_ha": 999700,
+      "history": {
+        "2018": 540.0,
+        "2019": 520.0,
+        "2020": 510.4,
+        "2021": 480.2,
+        "2022": 395.0,
+        "2023": 412.0
+      },
+      "canopy_class": "VDF"
+    },
+    "CHA": {
+      "baseline_ha": 401200,
+      "history": {
+        "2018": 220.0,
+        "2019": 205.0,
+        "2020": 208.0,
+        "2021": 194.0,
+        "2022": 162.0,
+        "2023": 178.5
+      },
+      "canopy_class": "MDF"
+    },
+    "BAL": {
+      "baseline_ha": 492800,
+      "history": {
+        "2018": 360.0,
+        "2019": 335.0,
+        "2020": 345.0,
+        "2021": 310.5,
+        "2022": 265.0,
+        "2023": 284.0
+      },
+      "canopy_class": "MDF"
+    },
+    "UKD": {
+      "baseline_ha": 820600,
+      "history": {
+        "2018": 480.0,
+        "2019": 450.0,
+        "2020": 460.0,
+        "2021": 420.0,
+        "2022": 370.0,
+        "2023": 390.0
+      },
+      "canopy_class": "VDF"
+    },
+    "IDU": {
+      "baseline_ha": 313900,
+      "history": {
+        "2018": 190.0,
+        "2019": 180.0,
+        "2020": 175.0,
+        "2021": 160.0,
+        "2022": 138.0,
+        "2023": 145.0
+      },
+      "canopy_class": "VDF"
+    },
+    "MAY": {
+      "baseline_ha": 420800,
+      "history": {
+        "2018": 265.0,
+        "2019": 245.0,
+        "2020": 252.0,
+        "2021": 235.0,
+        "2022": 198.0,
+        "2023": 210.0
+      },
+      "canopy_class": "MDF"
+    },
+    "KAR_AS": {
+      "baseline_ha": 776200,
+      "history": {
+        "2018": 710.0,
+        "2019": 670.0,
+        "2020": 680.0,
+        "2021": 620.0,
+        "2022": 540.0,
+        "2023": 580.0
+      },
+      "canopy_class": "VDF"
+    }
+  }
+}

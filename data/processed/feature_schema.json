@@ -1,0 +1,49 @@
+{
+  "issuance_date": "May 31 (Strict pre-monsoon cutoff)",
+  "target_variable": "y_deficit_event (1 if JJAS rainfall < 80% of 1981-2010 normal, 0 otherwise)",
+  "splits": {
+    "train": "1982-2014 (33 years, 198 district-years)",
+    "validation": "2015-2018 (4 years, 24 district-years)",
+    "test": "2019-2024 (6 years, 36 district-years)"
+  },
+  "feature_groups": {
+    "group_a_climatology": [],
+    "group_b_enso_only": [
+      "nino34_djf",
+      "nino34_mam",
+      "nino34_trend",
+      "enso_phase_mam",
+      "enso_persistence_seasons"
+    ],
+    "group_c_enso_climate": [
+      "nino34_djf",
+      "nino34_mam",
+      "nino34_trend",
+      "enso_phase_mam",
+      "enso_persistence_seasons",
+      "preseason_rainfall_mam_mm",
+      "preseason_rainfall_mam_anom_mm",
+      "prev_year_jjas_rainfall_mm",
+      "prev_year_was_deficit"
+    ],
+    "group_d_full_multimodal": [
+      "nino34_djf",
+      "nino34_mam",
+      "nino34_trend",
+      "enso_phase_mam",
+      "enso_persistence_seasons",
+      "preseason_rainfall_mam_mm",
+      "preseason_rainfall_mam_anom_mm",
+      "prev_year_jjas_rainfall_mm",
+      "prev_year_was_deficit",
+      "preseason_may_ndvi",
+      "preseason_may_ndvi_anomaly",
+      "district_lat",
+      "district_lon",
+      "elevation_m",
+      "irrigation_coverage_pct",
+      "net_sown_area_ha"
+    ]
+  },
+  "generated_at": "2026-10-26T16:18:13.977221+00:00"
+}

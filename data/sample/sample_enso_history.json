@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Sample Oceanic Ni\u00f1o Index (ONI) History (12 Months)",
+    "source": "NOAA Climate Prediction Center",
+    "license": "U.S. Public Domain",
+    "parameter": "3-month running mean of ERSST.v5 SST anomalies in Ni\u00f1o 3.4 region (5\u00b0N-5\u00b0S, 120\u00b0-170\u00b0W)",
+    "unit": "Degrees Celsius"
+  },
+  "data": [
+    {
+      "season": "ASO",
+      "year": 2025,
+      "total_sst": 26.33,
+      "anomaly": -0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2025,
+      "total_sst": 26.14,
+      "anomaly": -0.57,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2025,
+      "total_sst": 26.04,
+      "anomaly": -0.61,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2025,
+      "total_sst": 25.96,
+      "anomaly": -0.6,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2026,
+      "total_sst": 26.15,
+      "anomaly": -0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2026,
+      "total_sst": 26.57,
+      "anomaly": -0.21,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2026,
+      "total_sst": 27.34,
+      "anomaly": 0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2026,
+      "total_sst": 28.09,
+      "anomaly": 0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2026,
+      "total_sst": 28.74,
+      "anomaly": 0.95,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2026,
+      "total_sst": 29.02,
+      "anomaly": 1.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2026,
+      "total_sst": 29.09,
+      "anomaly": 1.8,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2026,
+      "total_sst": 29.12,
+      "anomaly": 2.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    }
+  ]
+}

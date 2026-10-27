@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Sample Forest Cover and Annual Loss Response",
+    "source": "Hansen Global Forest Change v1.11 & FSI ISFR",
+    "license": "Creative Commons Attribution 4.0 International",
+    "measurement_unit": "Hectares (ha)"
+  },
+  "national_summary": {
+    "region_id": "NATIONAL",
+    "region_name": "Republic of India",
+    "baseline_tree_cover_ha": 30128000,
+    "recent_loss_2023_ha": 143500
+  },
+  "sample_annual_loss_series": {}
+}

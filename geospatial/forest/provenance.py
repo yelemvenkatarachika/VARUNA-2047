@@ -1,0 +1,79 @@
+"""
+VARUNA 2047 - Forest Dataset Provenance & Metadata Registry
+Documents authentic forest datasets, spatial resolutions, temporal coverage,
+licensing, and scientific definitions for India.
+"""
+
+from typing import Dict, Any
+
+FOREST_PROVENANCE_REGISTRY: Dict[str, Any] = {
+    "fsi_isfr": {
+        "id": "fsi_isfr",
+        "name": "Forest Survey of India — India State of Forest Report (ISFR)",
+        "organization": "Forest Survey of India (FSI), Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "source_url": "https://fsi.nic.in/forest-report-2021",
+        "assessment_cycles": [2015, 2017, 2019, 2021, 2023],
+        "spatial_resolution": "1:50,000 scale (Resourcesat-2/2A LISS-III sensor, 23.5m spatial resolution)",
+        "forest_definition": (
+            "All lands, more than one hectare in area, with a tree canopy density of more than 10 percent "
+            "irrespective of ownership and legal status. Includes orchards, bamboo, and palms."
+        ),
+        "canopy_classes": {
+            "VDF": "Very Dense Forest (Canopy density >= 70%)",
+            "MDF": "Moderately Dense Forest (Canopy density 40% to 70%)",
+            "OF": "Open Forest (Canopy density 10% to 40%)",
+            "Scrub": "Degraded forest lands with canopy density < 10%"
+        },
+        "license": "Government Open Data License - India (GODL-India)",
+        "provenance_status": "AUTHENTIC_GOVERNMENT_ASSESSMENT"
+    },
+    "hansen_gfc": {
+        "id": "hansen_gfc",
+        "name": "Global Forest Change (Hansen/UMD/Google/USGS/NASA)",
+        "organization": "University of Maryland Global Land Analysis and Discovery (GLAD) lab",
+        "source_url": "https://glad.earthengine.app/view/global-forest-change",
+        "version": "v1.11 (2001–2023 update)",
+        "spatial_resolution": "30 meters (Landsat 7/8/9 surface reflectance)",
+        "temporal_coverage": "2001–2023 annual loss",
+        "forest_definition": (
+            "Tree cover defined as all vegetation taller than 5 meters in height. "
+            "Tree-cover loss is defined as stand-replacement disturbance or complete canopy removal at 30m resolution."
+        ),
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "caveats": (
+            "Does NOT distinguish permanent deforestation from rotational plantation harvesting, "
+            "shifting cultivation, or fire disturbance. Canopy loss does not directly equal individual felled trees."
+        ),
+        "provenance_status": "AUTHENTIC_SATELLITE_TIME_SERIES"
+    },
+    "isro_bhuvan_lulc": {
+        "id": "isro_bhuvan_lulc",
+        "name": "ISRO Bhuvan Land Use / Land Cover (SISDP-2 & National LULC)",
+        "organization": "National Remote Sensing Centre (NRSC), Indian Space Research Organisation (ISRO)",
+        "source_url": "https://bhuvan-vec1.nrsc.gov.in/bhuvan/wms",
+        "layers": ["sisdpv2:TS_Warangal_lulc_v2", "lulc:LULC250K_1920"],
+        "spatial_resolution": "1:50,000 / 1:250,000 thematic vector & raster",
+        "license": "ISRO Data Policy (Open WMS Thematic Services)",
+        "provenance_status": "AUTHENTIC_ISRO_WMS"
+    },
+    "esa_worldcover": {
+        "id": "esa_worldcover",
+        "name": "ESA WorldCover 10m Global Land Cover",
+        "organization": "European Space Agency (ESA) & VITO Remote Sensing",
+        "source_url": "https://esa-worldcover.org",
+        "version": "v200 (2021) / v100 (2020)",
+        "spatial_resolution": "10 meters (Sentinel-1 and Sentinel-2)",
+        "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "provenance_status": "AUTHENTIC_OPEN_REMOTE_SENSING"
+    },
+    "sentinel2_msi": {
+        "id": "sentinel2_msi",
+        "name": "Copernicus Sentinel-2 MSI MultiSpectral Instrument",
+        "organization": "European Space Agency (ESA) / European Commission",
+        "source_url": "https://dataspace.copernicus.eu",
+        "spatial_resolution": "10 meters (B2 Blue, B3 Green, B4 Red, B8 NIR)",
+        "product_type": "Level-2A Bottom-Of-Atmosphere (BOA) Reflectance",
+        "license": "Copernicus Open Access Policy (Free and Open)",
+        "provenance_status": "AUTHENTIC_OBSERVATIONAL_SCENE"
+    }
+}

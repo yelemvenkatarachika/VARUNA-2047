@@ -1,0 +1,322 @@
+{
+  "evaluation_period": "2019-2024 (Held-out Chronological Test)",
+  "scientific_audit": {
+    "test_period": "2019-2024 (Held-Out Untouched Chronological Test)",
+    "sample_count": 36,
+    "positive_deficit_events": 0,
+    "negative_events": 36,
+    "test_observed_rate": 0.0,
+    "climatology_brier_score": 0.0408,
+    "climatology_log_loss": 0.2257,
+    "baseline_comparison_conclusion": "Climatology baseline is 5.3x superior to ENSO-LR (0.0408 vs 0.2182) and 4.7x superior to XGBoost (0.0408 vs 0.1913) on Brier Score.",
+    "scientific_mechanisms": "1. Ground Truth Absence of Drought: The 2019-2024 period was unusually wet across Telangana, with zero district-years experiencing Kharif deficits < 80% of normal (positive anomalies ranged from +2.5% to +54.3%).\n2. False Alarm Penalties: The ML models detected the 2019 and 2023 El Ni\u00f1o signals and elevated risk probabilities to 0.45-0.70. Because no drought occurred in Telangana (mitigated by a strongly positive Indian Ocean Dipole in 2023 and favorable Bay of Bengal depression tracks), the models issued 9-14 false alarms and suffered severe Brier score penalties.\n3. Climatology Optimality under Quiescence: Climatology predicted the historical base rate (p=0.202) for all cases, yielding a squared error of (0.202 - 0)^2 = 0.0408. Under an unobserved rare event regime, the conservative climatological prior decisively outperforms complex anomaly detectors.\n4. ROC-AUC Undefined: Because y_true contains only class 0, ROC-AUC is mathematically undefined on the untouched test set.\n5. The previously cited 0.7830 ROC-AUC was computed on a combined 2015-2024 diagnostic window capturing the 2015 drought; it is NOT an untouched test metric."
+  },
+  "models": {
+    "model_a_climatology": {
+      "model_id": "model_a_climatology",
+      "name": "Climatological Base Rate",
+      "features_used": [],
+      "feature_count": 0,
+      "brier_score": 0.0408,
+      "log_loss": 0.2257,
+      "roc_auc": null,
+      "roc_auc_note": "UNDEFINED (Single-class test set: 0 positive events in 2019-2024)",
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "false_alarms": 0,
+      "true_negatives": 36,
+      "mean_predicted_p": 0.202,
+      "confusion_matrix": [
+        [
+          36
+        ]
+      ]
+    },
+    "model_b_enso_lr": {
+      "model_id": "model_b_enso_lr",
+      "name": "ENSO-Only Logistic Regression",
+      "features_used": [
+        "nino34_djf",
+        "nino34_mam",
+        "nino34_trend",
+        "enso_phase_mam",
+        "enso_persistence_seasons"
+      ],
+      "feature_count": 5,
+      "brier_score": 0.2182,
+      "log_loss": 0.6264,
+      "roc_auc": null,
+      "roc_auc_note": "UNDEFINED (0 positive events in test ground truth)",
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "false_alarms": 12,
+      "true_negatives": 24,
+      "mean_predicted_p": 0.4394,
+      "confusion_matrix": [
+        [
+          24,
+          12
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "coefficients": {
+        "nino34_djf": -0.1975,
+        "nino34_mam": 0.3525,
+        "nino34_trend": 0.6922,
+        "enso_phase_mam": 0.0509,
+        "enso_persistence_seasons": -0.0183
+      }
+    },
+    "model_c_enso_climate_lr": {
+      "model_id": "model_c_enso_climate_lr",
+      "name": "ENSO + Climate Logistic Regression",
+      "features_used": [
+        "nino34_djf",
+        "nino34_mam",
+        "nino34_trend",
+        "enso_phase_mam",
+        "enso_persistence_seasons",
+        "preseason_rainfall_mam_mm",
+        "preseason_rainfall_mam_anom_mm",
+        "prev_year_jjas_rainfall_mm",
+        "prev_year_was_deficit"
+      ],
+      "feature_count": 9,
+      "brier_score": 0.1698,
+      "log_loss": 0.5192,
+      "roc_auc": null,
+      "roc_auc_note": "UNDEFINED (0 positive events in test ground truth)",
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "false_alarms": 9,
+      "true_negatives": 27,
+      "mean_predicted_p": 0.387,
+      "confusion_matrix": [
+        [
+          27,
+          9
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "model_d_xgboost_multimodal": {
+      "model_id": "model_d_xgboost_multimodal",
+      "name": "VARUNA Multimodal XGBoost (ENSO + Climate + Satellite)",
+      "features_used": [
+        "nino34_djf",
+        "nino34_mam",
+        "nino34_trend",
+        "enso_phase_mam",
+        "enso_persistence_seasons",
+        "preseason_rainfall_mam_mm",
+        "preseason_rainfall_mam_anom_mm",
+        "prev_year_jjas_rainfall_mm",
+        "prev_year_was_deficit",
+        "preseason_may_ndvi",
+        "preseason_may_ndvi_anomaly",
+        "district_lat",
+        "district_lon",
+        "elevation_m",
+        "irrigation_coverage_pct",
+        "net_sown_area_ha"
+      ],
+      "feature_count": 16,
+      "brier_score": 0.1913,
+      "log_loss": 0.5308,
+      "roc_auc": null,
+      "roc_auc_note": "UNDEFINED (0 positive events in test ground truth)",
+      "precision": 0.0,
+      "recall": null,
+      "f1": 0.0,
+      "false_alarms": 14,
+      "true_negatives": 22,
+      "mean_predicted_p": 0.3581,
+      "confusion_matrix": [
+        [
+          22,
+          14
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "calibration": {
+        "predicted_probs": [
+          0.049,
+          0.317,
+          0.522,
+          0.696
+        ],
+        "empirical_frequencies": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "feature_importance_shap": [
+        {
+          "feature": "nino34_trend",
+          "importance": 1.1871
+        },
+        {
+          "feature": "nino34_mam",
+          "importance": 0.6284
+        },
+        {
+          "feature": "preseason_rainfall_mam_mm",
+          "importance": 0.1945
+        },
+        {
+          "feature": "preseason_may_ndvi",
+          "importance": 0.0971
+        },
+        {
+          "feature": "preseason_rainfall_mam_anom_mm",
+          "importance": 0.0904
+        },
+        {
+          "feature": "prev_year_jjas_rainfall_mm",
+          "importance": 0.0735
+        },
+        {
+          "feature": "preseason_may_ndvi_anomaly",
+          "importance": 0.0661
+        },
+        {
+          "feature": "nino34_djf",
+          "importance": 0.0604
+        },
+        {
+          "feature": "elevation_m",
+          "importance": 0.0538
+        },
+        {
+          "feature": "district_lat",
+          "importance": 0.0249
+        },
+        {
+          "feature": "district_lon",
+          "importance": 0.0046
+        },
+        {
+          "feature": "enso_phase_mam",
+          "importance": 0.0
+        },
+        {
+          "feature": "enso_persistence_seasons",
+          "importance": 0.0
+        },
+        {
+          "feature": "prev_year_was_deficit",
+          "importance": 0.0
+        },
+        {
+          "feature": "irrigation_coverage_pct",
+          "importance": 0.0
+        },
+        {
+          "feature": "net_sown_area_ha",
+          "importance": 0.0
+        }
+      ]
+    }
+  },
+  "generated_at": "2026-10-27T00:43:39.022574+00:00",
+  "multi_window_evaluation": {
+    "evaluation_windows": {
+      "val_2015_2018": {
+        "sample_count": 24,
+        "deficit_count": 7,
+        "deficit_frequency": 0.292,
+        "models": {
+          "Climatology": {
+            "brier": 0.2146,
+            "roc_auc": null,
+            "f1": 0.0
+          },
+          "ENSO-Only LR": {
+            "brier": 0.2123,
+            "roc_auc": 0.6765,
+            "f1": 0.56
+          },
+          "ENSO+Climate LR": {
+            "brier": 0.2314,
+            "roc_auc": 0.4874,
+            "f1": 0.1111
+          },
+          "VARUNA XGBoost (Multimodal)": {
+            "brier": 0.1832,
+            "roc_auc": 0.6807,
+            "f1": 0.0
+          }
+        }
+      },
+      "test_2019_2024": {
+        "sample_count": 36,
+        "deficit_count": 0,
+        "deficit_frequency": 0.0,
+        "models": {
+          "Climatology": {
+            "brier": 0.0408,
+            "roc_auc": null,
+            "f1": 0.0
+          },
+          "ENSO-Only LR": {
+            "brier": 0.2182,
+            "roc_auc": null,
+            "f1": 0.0
+          },
+          "ENSO+Climate LR": {
+            "brier": 0.1698,
+            "roc_auc": null,
+            "f1": 0.0
+          },
+          "VARUNA XGBoost (Multimodal)": {
+            "brier": 0.1913,
+            "roc_auc": null,
+            "f1": 0.0
+          }
+        }
+      },
+      "combined_oos_2015_2024": {
+        "sample_count": 60,
+        "deficit_count": 7,
+        "deficit_frequency": 0.117,
+        "models": {
+          "Climatology": {
+            "brier": 0.1103,
+            "roc_auc": null,
+            "f1": 0.0
+          },
+          "ENSO-Only LR": {
+            "brier": 0.2158,
+            "roc_auc": 0.783,
+            "f1": 0.3784
+          },
+          "ENSO+Climate LR": {
+            "brier": 0.1945,
+            "roc_auc": 0.6388,
+            "f1": 0.0741
+          },
+          "VARUNA XGBoost (Multimodal)": {
+            "brier": 0.1881,
+            "roc_auc": 0.496,
+            "f1": 0.0
+          }
+        }
+      }
+    },
+    "ablation_comparison": {}
+  }
+}

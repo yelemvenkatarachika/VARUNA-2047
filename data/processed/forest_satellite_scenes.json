@@ -1,0 +1,131 @@
+{
+  "WAR_FOREST_CORRIDOR": {
+    "region_id": "WAR",
+    "region_name": "Warangal Forest Corridor (Pakhal & Eturnagaram Reserve)",
+    "state": "Telangana",
+    "center": [
+      79.85,
+      18.05
+    ],
+    "bbox": [
+      79.6,
+      17.85,
+      80.15,
+      18.25
+    ],
+    "primary_ecosystem": "Southern Dry Mixed Deciduous Forest (Teak, Terminalia, Bamboo)",
+    "baseline_scene": {
+      "mission": "Copernicus Sentinel-2B",
+      "sensor": "MultiSpectral Instrument (MSI)",
+      "product_level": "Level-2A Bottom-Of-Atmosphere (BOA) Surface Reflectance",
+      "scene_id": "S2B_44QLE_20190129_0_L2A",
+      "acquisition_date": "2019-01-29T05:01:29Z",
+      "spatial_resolution_m": 10.0,
+      "cloud_cover_pct": 0.02,
+      "sun_elevation_deg": 46.8,
+      "bands_used": [
+        "B04 (Red 665nm)",
+        "B03 (Green 560nm)",
+        "B02 (Blue 490nm)",
+        "B08 (NIR 842nm)"
+      ],
+      "verification_status": "VERIFIED_AWS_STAC_COG_PROCESSED",
+      "data_provider": "Element84 AWS Earth Search / ESA Copernicus",
+      "tile": "44QLE"
+    },
+    "recent_scene": {
+      "mission": "Copernicus Sentinel-2B",
+      "sensor": "MultiSpectral Instrument (MSI)",
+      "product_level": "Level-2A Bottom-Of-Atmosphere (BOA) Surface Reflectance",
+      "scene_id": "S2B_44QLE_20240113_0_L2A",
+      "acquisition_date": "2024-01-13T05:01:31Z",
+      "spatial_resolution_m": 10.0,
+      "cloud_cover_pct": 0.04,
+      "sun_elevation_deg": 45.9,
+      "bands_used": [
+        "B04 (Red 665nm)",
+        "B03 (Green 560nm)",
+        "B02 (Blue 490nm)",
+        "B08 (NIR 842nm)"
+      ],
+      "verification_status": "VERIFIED_AWS_STAC_COG_PROCESSED",
+      "data_provider": "Element84 AWS Earth Search / ESA Copernicus",
+      "tile": "44QLE"
+    },
+    "change_analysis": {
+      "methodology": "Bi-temporal Sentinel-2 L2A BOA dNDVI thresholding (>= 0.20) with 20m SCL quality masking",
+      "analysis_window_ha": 3600.0,
+      "baseline_forest_ha": 1157.6,
+      "baseline_forest_pixels": 115760,
+      "detected_canopy_loss_ha": 236.21,
+      "detected_canopy_loss_pixels": 23621,
+      "loss_percentage": 20.41,
+      "mean_baseline_ndvi": 0.552,
+      "mean_recent_ndvi": 0.28,
+      "reproduction_status": "VERIFIED_COPERNICUS_L2A_PROCESSED",
+      "scientific_disclosure": "Independently verified and calculated from authentic Copernicus Sentinel-2 L2A BOA multi-spectral bands (Tile 44QLE). Analysis over a 3,600-hectare Pakhal reserve corridor window detected 236.21 ha of canopy disturbance (20.41% of baseline canopy) between 2019-01-29 and 2024-01-13. No arbitrary tree-count multipliers are applied: 10m pixels reflect canopy spectral changes, not individual felled trees.",
+      "visual_assets": {
+        "baseline_rgb": "/data/satellite/warangal_2019_real.png",
+        "recent_rgb": "/data/satellite/warangal_2024_real.png",
+        "dndvi_overlay": "/data/satellite/warangal_dndvi_mask.png"
+      }
+    }
+  },
+  "UKD_WESTERN_GHATS": {
+    "region_id": "UKD",
+    "region_name": "Uttara Kannada Western Ghats Rain Forest",
+    "state": "Karnataka",
+    "center": [
+      74.7,
+      14.8
+    ],
+    "bbox": [
+      74.3,
+      14.4,
+      75.1,
+      15.2
+    ],
+    "primary_ecosystem": "Tropical Wet Evergreen & Semi-Evergreen Forest (Dipterocarpus, Hopea)",
+    "baseline_scene": {
+      "mission": "USGS/NASA Landsat-8",
+      "sensor": "Operational Land Imager (OLI)",
+      "product_level": "Collection 2 Level-2 Surface Reflectance",
+      "scene_id": "LC08_L2SP_146050_20190204_20200829_02_T1",
+      "acquisition_date": "2019-02-04T05:22:15Z",
+      "spatial_resolution_m": 30.0,
+      "cloud_cover_pct": 1.1,
+      "bands_used": [
+        "B4 (Red)",
+        "B3 (Green)",
+        "B2 (Blue)",
+        "B5 (NIR)"
+      ],
+      "verification_status": "SCENE_ID_VERIFIED_RAW_RASTER_OFFLINE",
+      "data_provider": "USGS / NASA Earth Observing System"
+    },
+    "recent_scene": {
+      "mission": "USGS/NASA Landsat-9",
+      "sensor": "Operational Land Imager 2 (OLI-2)",
+      "product_level": "Collection 2 Level-2 Surface Reflectance",
+      "scene_id": "LC09_L2SP_146050_20240212_20240213_02_T1",
+      "acquisition_date": "2024-02-12T05:22:30Z",
+      "spatial_resolution_m": 30.0,
+      "cloud_cover_pct": 0.95,
+      "bands_used": [
+        "B4 (Red)",
+        "B3 (Green)",
+        "B2 (Blue)",
+        "B5 (NIR)"
+      ],
+      "verification_status": "SCENE_ID_VERIFIED_RAW_RASTER_OFFLINE",
+      "data_provider": "USGS / NASA Earth Observing System"
+    },
+    "change_analysis": {
+      "methodology": "30m Hansen GFC v1.11 stand-replacement loss aggregation",
+      "baseline_forest_ha": 820600,
+      "detected_canopy_loss_ha": null,
+      "reproduction_status": "UNVERIFIED_PENDING_RAW_RASTER_DOWNLOAD",
+      "scientific_disclosure": "Scene IDs verified; local bi-temporal pixel subtraction removed until raw rasters are downloaded."
+    }
+  }
+}

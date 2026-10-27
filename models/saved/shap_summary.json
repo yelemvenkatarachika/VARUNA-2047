@@ -1,0 +1,103 @@
+{
+  "model_id": "model_d_xgboost_multimodal",
+  "feature_ranking": [
+    {
+      "feature": "nino34_trend",
+      "importance": 1.1871
+    },
+    {
+      "feature": "nino34_mam",
+      "importance": 0.6284
+    },
+    {
+      "feature": "preseason_rainfall_mam_mm",
+      "importance": 0.1945
+    },
+    {
+      "feature": "preseason_may_ndvi",
+      "importance": 0.0971
+    },
+    {
+      "feature": "preseason_rainfall_mam_anom_mm",
+      "importance": 0.0904
+    },
+    {
+      "feature": "prev_year_jjas_rainfall_mm",
+      "importance": 0.0735
+    },
+    {
+      "feature": "preseason_may_ndvi_anomaly",
+      "importance": 0.0661
+    },
+    {
+      "feature": "nino34_djf",
+      "importance": 0.0604
+    },
+    {
+      "feature": "elevation_m",
+      "importance": 0.0538
+    },
+    {
+      "feature": "district_lat",
+      "importance": 0.0249
+    },
+    {
+      "feature": "district_lon",
+      "importance": 0.0046
+    },
+    {
+      "feature": "enso_phase_mam",
+      "importance": 0.0
+    },
+    {
+      "feature": "enso_persistence_seasons",
+      "importance": 0.0
+    },
+    {
+      "feature": "prev_year_was_deficit",
+      "importance": 0.0
+    },
+    {
+      "feature": "irrigation_coverage_pct",
+      "importance": 0.0
+    },
+    {
+      "feature": "net_sown_area_ha",
+      "importance": 0.0
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "nino34_trend",
+      "importance": 1.1871
+    },
+    {
+      "feature": "nino34_mam",
+      "importance": 0.6284
+    },
+    {
+      "feature": "preseason_rainfall_mam_mm",
+      "importance": 0.1945
+    },
+    {
+      "feature": "preseason_may_ndvi",
+      "importance": 0.0971
+    },
+    {
+      "feature": "preseason_rainfall_mam_anom_mm",
+      "importance": 0.0904
+    },
+    {
+      "feature": "prev_year_jjas_rainfall_mm",
+      "importance": 0.0735
+    },
+    {
+      "feature": "preseason_may_ndvi_anomaly",
+      "importance": 0.0661
+    },
+    {
+      "feature": "nino34_djf",
+      "importance": 0.0604
+    }
+  ]
+}

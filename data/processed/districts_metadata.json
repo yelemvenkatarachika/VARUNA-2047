@@ -1,0 +1,319 @@
+[
+  {
+    "id": "ADI",
+    "name": "Adilabad",
+    "state": "Telangana",
+    "lat": 19.6641,
+    "lon": 78.532,
+    "elevation_m": 264,
+    "area_sqkm": 4153,
+    "agro_climatic_zone": "Northern Telangana Zone",
+    "major_crops": [
+      "Cotton",
+      "Soybean",
+      "Red Gram",
+      "Jowar"
+    ],
+    "normal_monsoon_rainfall_mm": 1045.2,
+    "net_sown_area_ha": 210000,
+    "irrigation_coverage_pct": 28.4,
+    "coordinates": [
+      [
+        [
+          78.1,
+          19.95
+        ],
+        [
+          78.35,
+          19.98
+        ],
+        [
+          78.65,
+          19.92
+        ],
+        [
+          78.9,
+          19.75
+        ],
+        [
+          79.05,
+          19.55
+        ],
+        [
+          78.85,
+          19.4
+        ],
+        [
+          78.55,
+          19.35
+        ],
+        [
+          78.3,
+          19.5
+        ],
+        [
+          78.15,
+          19.7
+        ],
+        [
+          78.1,
+          19.95
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "NIZ",
+    "name": "Nizamabad",
+    "state": "Telangana",
+    "lat": 18.6725,
+    "lon": 78.0941,
+    "elevation_m": 395,
+    "area_sqkm": 4288,
+    "agro_climatic_zone": "Northern Telangana Zone",
+    "major_crops": [
+      "Paddy",
+      "Soybean",
+      "Maize",
+      "Turmeric"
+    ],
+    "normal_monsoon_rainfall_mm": 930.5,
+    "net_sown_area_ha": 235000,
+    "irrigation_coverage_pct": 61.2,
+    "coordinates": [
+      [
+        [
+          77.75,
+          18.95
+        ],
+        [
+          78.15,
+          19.05
+        ],
+        [
+          78.4,
+          18.85
+        ],
+        [
+          78.45,
+          18.55
+        ],
+        [
+          78.2,
+          18.4
+        ],
+        [
+          77.85,
+          18.5
+        ],
+        [
+          77.65,
+          18.75
+        ],
+        [
+          77.75,
+          18.95
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "KAR",
+    "name": "Karimnagar",
+    "state": "Telangana",
+    "lat": 18.4386,
+    "lon": 79.1288,
+    "elevation_m": 265,
+    "area_sqkm": 2128,
+    "agro_climatic_zone": "Northern Telangana Zone",
+    "major_crops": [
+      "Paddy",
+      "Cotton",
+      "Maize"
+    ],
+    "normal_monsoon_rainfall_mm": 865.0,
+    "net_sown_area_ha": 145000,
+    "irrigation_coverage_pct": 74.5,
+    "coordinates": [
+      [
+        [
+          78.85,
+          18.65
+        ],
+        [
+          79.25,
+          18.7
+        ],
+        [
+          79.45,
+          18.5
+        ],
+        [
+          79.35,
+          18.25
+        ],
+        [
+          79.0,
+          18.2
+        ],
+        [
+          78.8,
+          18.4
+        ],
+        [
+          78.85,
+          18.65
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "HAN",
+    "name": "Hanamkonda",
+    "state": "Telangana",
+    "lat": 18.0135,
+    "lon": 79.554,
+    "elevation_m": 270,
+    "area_sqkm": 1304,
+    "agro_climatic_zone": "Central Telangana Zone",
+    "major_crops": [
+      "Cotton",
+      "Paddy",
+      "Chilli",
+      "Maize"
+    ],
+    "normal_monsoon_rainfall_mm": 820.4,
+    "net_sown_area_ha": 92000,
+    "irrigation_coverage_pct": 52.8,
+    "coordinates": [
+      [
+        [
+          79.35,
+          18.25
+        ],
+        [
+          79.65,
+          18.2
+        ],
+        [
+          79.75,
+          18.0
+        ],
+        [
+          79.6,
+          17.85
+        ],
+        [
+          79.35,
+          17.9
+        ],
+        [
+          79.25,
+          18.1
+        ],
+        [
+          79.35,
+          18.25
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "WAR",
+    "name": "Warangal",
+    "state": "Telangana",
+    "lat": 17.9689,
+    "lon": 79.5941,
+    "elevation_m": 280,
+    "area_sqkm": 2175,
+    "agro_climatic_zone": "Central Telangana Zone",
+    "major_crops": [
+      "Cotton",
+      "Paddy",
+      "Chilli",
+      "Red Gram"
+    ],
+    "normal_monsoon_rainfall_mm": 845.8,
+    "net_sown_area_ha": 158000,
+    "irrigation_coverage_pct": 49.6,
+    "coordinates": [
+      [
+        [
+          79.6,
+          18.05
+        ],
+        [
+          79.95,
+          18.0
+        ],
+        [
+          80.1,
+          17.75
+        ],
+        [
+          79.85,
+          17.65
+        ],
+        [
+          79.5,
+          17.75
+        ],
+        [
+          79.6,
+          18.05
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "KHA",
+    "name": "Khammam",
+    "state": "Telangana",
+    "lat": 17.2473,
+    "lon": 80.1514,
+    "elevation_m": 112,
+    "area_sqkm": 4361,
+    "agro_climatic_zone": "Central Telangana Zone",
+    "major_crops": [
+      "Paddy",
+      "Cotton",
+      "Chilli",
+      "Pulses"
+    ],
+    "normal_monsoon_rainfall_mm": 915.2,
+    "net_sown_area_ha": 240000,
+    "irrigation_coverage_pct": 58.1,
+    "coordinates": [
+      [
+        [
+          79.85,
+          17.6
+        ],
+        [
+          80.35,
+          17.65
+        ],
+        [
+          80.65,
+          17.35
+        ],
+        [
+          80.45,
+          16.95
+        ],
+        [
+          80.05,
+          17.05
+        ],
+        [
+          79.75,
+          17.3
+        ],
+        [
+          79.85,
+          17.6
+        ]
+      ]
+    ]
+  }
+]

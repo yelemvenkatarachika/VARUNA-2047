@@ -1,0 +1,2587 @@
+{
+  "metadata": {
+    "provider": "VARUNA Biophysical Simulation Engine",
+    "data_type": "Synthetic Demonstration Rasters & Biophysical Simulation Proxy",
+    "is_synthetic_simulation": true,
+    "sensor_analog": "Calibrated as spatial analog to ESA Copernicus Sentinel-2 MSI (B4/B8) and NASA MODIS (MOD13Q1) surface reflectance parameters",
+    "bands_modeled": "Band 8 (NIR: 842 nm analog) and Band 4 (Red: 665 nm analog)",
+    "formula": "NDVI = (NIR - RED) / (NIR + RED)",
+    "spatial_coverage": "Telangana Pilot Zone (Adilabad, Nizamabad, Karimnagar, Hanamkonda, Warangal, Khammam)",
+    "temporal_coverage": "1982-2024 (Synthetic rainfall-driven biophysical simulation; genuine operational Sentinel-2 launched in 2015 and MODIS in 1999)",
+    "preseason_issuance_timing": "May 31 (Strict pre-monsoon observation cutoff)",
+    "geotiff_layers": [
+      {
+        "id": "ndvi_premonsoon_may",
+        "file": "ndvi_premonsoon_may.tif",
+        "title": "[SIMULATION] Modeled Pre-Monsoon Surface Reflectance (May)",
+        "type": "simulation_raster",
+        "description": "Synthetically generated bare-soil and pre-monsoon canopy reflectance grid based on Deccan agro-ecological parameters."
+      },
+      {
+        "id": "ndvi_monsoon_peak",
+        "file": "ndvi_monsoon_peak.tif",
+        "title": "[SIMULATION] Modeled Peak Kharif Canopy Flush (August)",
+        "type": "simulation_raster",
+        "description": "Synthetically generated active vegetative canopy reflectance grid."
+      },
+      {
+        "id": "ndvi_monsoon_drought_scenario",
+        "file": "ndvi_monsoon_drought_scenario.tif",
+        "title": "[SIMULATION] Modeled Drought Canopy Stress Scenario",
+        "type": "simulation_raster",
+        "description": "Synthetically generated drought stress scenario demonstrating vegetative depression."
+      },
+      {
+        "id": "ndvi_anomaly_map",
+        "file": "ndvi_anomaly_map.tif",
+        "title": "[SIMULATION] Modeled Negative Vegetation Anomaly",
+        "type": "simulation_raster",
+        "description": "Spatial difference grid between normal peak flush and drought scenario."
+      }
+    ],
+    "scientific_disclosure": "These rasters were generated via mathematical spatial modeling functions to test the rasterio geospatial processing engine and MapLibre UI renderer. They are NOT raw or level-2 observational satellite scenes.",
+    "generated_at": "2026-10-26T17:28:40.030985+00:00"
+  },
+  "zonal_statistics": {
+    "ADI": {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "premonsoon_may_stats": {
+        "count": 1045,
+        "mean": 0.2804,
+        "std": 0.0685,
+        "min": 0.1831,
+        "max": 0.39,
+        "median": 0.2738
+      },
+      "monsoon_peak_stats": {
+        "count": 1045,
+        "mean": 0.7553,
+        "std": 0.0072,
+        "min": 0.7463,
+        "max": 0.7757,
+        "median": 0.7532
+      },
+      "drought_scenario_stats": {
+        "count": 1045,
+        "mean": 0.543,
+        "std": 0.0127,
+        "min": 0.527,
+        "max": 0.5784,
+        "median": 0.5398
+      },
+      "ndvi_anomaly_stats": {
+        "count": 1045,
+        "mean": -0.2123,
+        "std": 0.0057,
+        "min": -0.2193,
+        "max": -0.1973,
+        "median": -0.2136
+      }
+    },
+    "NIZ": {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "premonsoon_may_stats": {
+        "count": 966,
+        "mean": 0.2678,
+        "std": 0.0379,
+        "min": 0.1565,
+        "max": 0.3313,
+        "median": 0.275
+      },
+      "monsoon_peak_stats": {
+        "count": 966,
+        "mean": 0.7341,
+        "std": 0.0125,
+        "min": 0.7039,
+        "max": 0.7587,
+        "median": 0.7358
+      },
+      "drought_scenario_stats": {
+        "count": 966,
+        "mean": 0.5297,
+        "std": 0.0189,
+        "min": 0.481,
+        "max": 0.5653,
+        "median": 0.5333
+      },
+      "ndvi_anomaly_stats": {
+        "count": 966,
+        "mean": -0.2043,
+        "std": 0.0065,
+        "min": -0.2229,
+        "max": -0.1934,
+        "median": -0.2026
+      }
+    },
+    "KAR": {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "premonsoon_may_stats": {
+        "count": 649,
+        "mean": 0.1582,
+        "std": 0.0396,
+        "min": 0.0922,
+        "max": 0.2594,
+        "median": 0.1489
+      },
+      "monsoon_peak_stats": {
+        "count": 649,
+        "mean": 0.7636,
+        "std": 0.022,
+        "min": 0.7119,
+        "max": 0.8015,
+        "median": 0.7653
+      },
+      "drought_scenario_stats": {
+        "count": 649,
+        "mean": 0.5655,
+        "std": 0.0338,
+        "min": 0.4854,
+        "max": 0.6227,
+        "median": 0.5684
+      },
+      "ndvi_anomaly_stats": {
+        "count": 649,
+        "mean": -0.1981,
+        "std": 0.0118,
+        "min": -0.2265,
+        "max": -0.1788,
+        "median": -0.1967
+      }
+    },
+    "HAN": {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "premonsoon_may_stats": {
+        "count": 392,
+        "mean": 0.2079,
+        "std": 0.0329,
+        "min": 0.1337,
+        "max": 0.2625,
+        "median": 0.2142
+      },
+      "monsoon_peak_stats": {
+        "count": 392,
+        "mean": 0.6811,
+        "std": 0.0192,
+        "min": 0.652,
+        "max": 0.7263,
+        "median": 0.6783
+      },
+      "drought_scenario_stats": {
+        "count": 392,
+        "mean": 0.4376,
+        "std": 0.03,
+        "min": 0.3919,
+        "max": 0.5077,
+        "median": 0.4334
+      },
+      "ndvi_anomaly_stats": {
+        "count": 392,
+        "mean": -0.2435,
+        "std": 0.0109,
+        "min": -0.2601,
+        "max": -0.2186,
+        "median": -0.2451
+      }
+    },
+    "WAR": {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "premonsoon_may_stats": {
+        "count": 451,
+        "mean": 0.2148,
+        "std": 0.0231,
+        "min": 0.1398,
+        "max": 0.2436,
+        "median": 0.2231
+      },
+      "monsoon_peak_stats": {
+        "count": 451,
+        "mean": 0.6501,
+        "std": 0.0068,
+        "min": 0.6414,
+        "max": 0.6752,
+        "median": 0.6482
+      },
+      "drought_scenario_stats": {
+        "count": 451,
+        "mean": 0.3897,
+        "std": 0.0105,
+        "min": 0.3765,
+        "max": 0.4288,
+        "median": 0.3865
+      },
+      "ndvi_anomaly_stats": {
+        "count": 451,
+        "mean": -0.2603,
+        "std": 0.0038,
+        "min": -0.2649,
+        "max": -0.2464,
+        "median": -0.2617
+      }
+    },
+    "KHA": {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "premonsoon_may_stats": {
+        "count": 1153,
+        "mean": 0.1124,
+        "std": 0.0574,
+        "min": 0.0499,
+        "max": 0.2296,
+        "median": 0.0976
+      },
+      "monsoon_peak_stats": {
+        "count": 1153,
+        "mean": 0.6638,
+        "std": 0.0121,
+        "min": 0.6423,
+        "max": 0.6873,
+        "median": 0.6634
+      },
+      "drought_scenario_stats": {
+        "count": 1153,
+        "mean": 0.4205,
+        "std": 0.0232,
+        "min": 0.3793,
+        "max": 0.4651,
+        "median": 0.4198
+      },
+      "ndvi_anomaly_stats": {
+        "count": 1153,
+        "mean": -0.2434,
+        "std": 0.0111,
+        "min": -0.263,
+        "max": -0.2222,
+        "median": -0.2436
+      }
+    }
+  },
+  "annual_records": [
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1982,
+      "preseason_may_ndvi": 0.288,
+      "peak_monsoon_ndvi": 0.646,
+      "vci_index": 76.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1982,
+      "preseason_may_ndvi": 0.268,
+      "peak_monsoon_ndvi": 0.612,
+      "vci_index": 69.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1982,
+      "preseason_may_ndvi": 0.243,
+      "peak_monsoon_ndvi": 0.614,
+      "vci_index": 69.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1982,
+      "preseason_may_ndvi": 0.251,
+      "peak_monsoon_ndvi": 0.609,
+      "vci_index": 68.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1982,
+      "preseason_may_ndvi": 0.24,
+      "peak_monsoon_ndvi": 0.598,
+      "vci_index": 66.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1982,
+      "preseason_may_ndvi": 0.264,
+      "peak_monsoon_ndvi": 0.627,
+      "vci_index": 72.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1983,
+      "preseason_may_ndvi": 0.287,
+      "peak_monsoon_ndvi": 0.678,
+      "vci_index": 84.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1983,
+      "preseason_may_ndvi": 0.247,
+      "peak_monsoon_ndvi": 0.629,
+      "vci_index": 73.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1983,
+      "preseason_may_ndvi": 0.214,
+      "peak_monsoon_ndvi": 0.613,
+      "vci_index": 69.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1983,
+      "preseason_may_ndvi": 0.215,
+      "peak_monsoon_ndvi": 0.606,
+      "vci_index": 68.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1983,
+      "preseason_may_ndvi": 0.213,
+      "peak_monsoon_ndvi": 0.605,
+      "vci_index": 67.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1983,
+      "preseason_may_ndvi": 0.245,
+      "peak_monsoon_ndvi": 0.664,
+      "vci_index": 80.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1984,
+      "preseason_may_ndvi": 0.267,
+      "peak_monsoon_ndvi": 0.557,
+      "vci_index": 57.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1984,
+      "preseason_may_ndvi": 0.213,
+      "peak_monsoon_ndvi": 0.547,
+      "vci_index": 54.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1984,
+      "preseason_may_ndvi": 0.196,
+      "peak_monsoon_ndvi": 0.517,
+      "vci_index": 48.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1984,
+      "preseason_may_ndvi": 0.2,
+      "peak_monsoon_ndvi": 0.529,
+      "vci_index": 50.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1984,
+      "preseason_may_ndvi": 0.205,
+      "peak_monsoon_ndvi": 0.533,
+      "vci_index": 51.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1984,
+      "preseason_may_ndvi": 0.253,
+      "peak_monsoon_ndvi": 0.543,
+      "vci_index": 54.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1985,
+      "preseason_may_ndvi": 0.264,
+      "peak_monsoon_ndvi": 0.551,
+      "vci_index": 55.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1985,
+      "preseason_may_ndvi": 0.23,
+      "peak_monsoon_ndvi": 0.544,
+      "vci_index": 54.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1985,
+      "preseason_may_ndvi": 0.245,
+      "peak_monsoon_ndvi": 0.558,
+      "vci_index": 57.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1985,
+      "preseason_may_ndvi": 0.214,
+      "peak_monsoon_ndvi": 0.532,
+      "vci_index": 51.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1985,
+      "preseason_may_ndvi": 0.227,
+      "peak_monsoon_ndvi": 0.545,
+      "vci_index": 54.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1985,
+      "preseason_may_ndvi": 0.234,
+      "peak_monsoon_ndvi": 0.528,
+      "vci_index": 50.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1986,
+      "preseason_may_ndvi": 0.261,
+      "peak_monsoon_ndvi": 0.582,
+      "vci_index": 62.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1986,
+      "preseason_may_ndvi": 0.244,
+      "peak_monsoon_ndvi": 0.56,
+      "vci_index": 57.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1986,
+      "preseason_may_ndvi": 0.206,
+      "peak_monsoon_ndvi": 0.527,
+      "vci_index": 50.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1986,
+      "preseason_may_ndvi": 0.217,
+      "peak_monsoon_ndvi": 0.531,
+      "vci_index": 51.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1986,
+      "preseason_may_ndvi": 0.215,
+      "peak_monsoon_ndvi": 0.529,
+      "vci_index": 50.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1986,
+      "preseason_may_ndvi": 0.249,
+      "peak_monsoon_ndvi": 0.531,
+      "vci_index": 51.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1987,
+      "preseason_may_ndvi": 0.265,
+      "peak_monsoon_ndvi": 0.553,
+      "vci_index": 56.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1987,
+      "preseason_may_ndvi": 0.273,
+      "peak_monsoon_ndvi": 0.556,
+      "vci_index": 56.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1987,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.497,
+      "vci_index": 43.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1987,
+      "preseason_may_ndvi": 0.207,
+      "peak_monsoon_ndvi": 0.483,
+      "vci_index": 40.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1987,
+      "preseason_may_ndvi": 0.239,
+      "peak_monsoon_ndvi": 0.514,
+      "vci_index": 47.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1987,
+      "preseason_may_ndvi": 0.247,
+      "peak_monsoon_ndvi": 0.509,
+      "vci_index": 46.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1988,
+      "preseason_may_ndvi": 0.276,
+      "peak_monsoon_ndvi": 0.69,
+      "vci_index": 86.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1988,
+      "preseason_may_ndvi": 0.225,
+      "peak_monsoon_ndvi": 0.633,
+      "vci_index": 74.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1988,
+      "preseason_may_ndvi": 0.213,
+      "peak_monsoon_ndvi": 0.625,
+      "vci_index": 72.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1988,
+      "preseason_may_ndvi": 0.222,
+      "peak_monsoon_ndvi": 0.634,
+      "vci_index": 74.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1988,
+      "preseason_may_ndvi": 0.239,
+      "peak_monsoon_ndvi": 0.652,
+      "vci_index": 78.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1988,
+      "preseason_may_ndvi": 0.259,
+      "peak_monsoon_ndvi": 0.708,
+      "vci_index": 90.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1989,
+      "preseason_may_ndvi": 0.28,
+      "peak_monsoon_ndvi": 0.631,
+      "vci_index": 73.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1989,
+      "preseason_may_ndvi": 0.248,
+      "peak_monsoon_ndvi": 0.66,
+      "vci_index": 80.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1989,
+      "preseason_may_ndvi": 0.21,
+      "peak_monsoon_ndvi": 0.629,
+      "vci_index": 73.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1989,
+      "preseason_may_ndvi": 0.211,
+      "peak_monsoon_ndvi": 0.629,
+      "vci_index": 73.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1989,
+      "preseason_may_ndvi": 0.224,
+      "peak_monsoon_ndvi": 0.644,
+      "vci_index": 76.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1989,
+      "preseason_may_ndvi": 0.273,
+      "peak_monsoon_ndvi": 0.698,
+      "vci_index": 88.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1990,
+      "preseason_may_ndvi": 0.309,
+      "peak_monsoon_ndvi": 0.651,
+      "vci_index": 78.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1990,
+      "preseason_may_ndvi": 0.279,
+      "peak_monsoon_ndvi": 0.588,
+      "vci_index": 64.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1990,
+      "preseason_may_ndvi": 0.273,
+      "peak_monsoon_ndvi": 0.603,
+      "vci_index": 67.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1990,
+      "preseason_may_ndvi": 0.266,
+      "peak_monsoon_ndvi": 0.572,
+      "vci_index": 60.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1990,
+      "preseason_may_ndvi": 0.273,
+      "peak_monsoon_ndvi": 0.579,
+      "vci_index": 62.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1990,
+      "preseason_may_ndvi": 0.34,
+      "peak_monsoon_ndvi": 0.594,
+      "vci_index": 65.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1991,
+      "preseason_may_ndvi": 0.275,
+      "peak_monsoon_ndvi": 0.602,
+      "vci_index": 67.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1991,
+      "preseason_may_ndvi": 0.246,
+      "peak_monsoon_ndvi": 0.607,
+      "vci_index": 68.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1991,
+      "preseason_may_ndvi": 0.203,
+      "peak_monsoon_ndvi": 0.562,
+      "vci_index": 58.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1991,
+      "preseason_may_ndvi": 0.201,
+      "peak_monsoon_ndvi": 0.568,
+      "vci_index": 59.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1991,
+      "preseason_may_ndvi": 0.218,
+      "peak_monsoon_ndvi": 0.586,
+      "vci_index": 63.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1991,
+      "preseason_may_ndvi": 0.255,
+      "peak_monsoon_ndvi": 0.66,
+      "vci_index": 80.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1992,
+      "preseason_may_ndvi": 0.261,
+      "peak_monsoon_ndvi": 0.595,
+      "vci_index": 65.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1992,
+      "preseason_may_ndvi": 0.244,
+      "peak_monsoon_ndvi": 0.575,
+      "vci_index": 61.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1992,
+      "preseason_may_ndvi": 0.207,
+      "peak_monsoon_ndvi": 0.54,
+      "vci_index": 53.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1992,
+      "preseason_may_ndvi": 0.2,
+      "peak_monsoon_ndvi": 0.533,
+      "vci_index": 51.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1992,
+      "preseason_may_ndvi": 0.234,
+      "peak_monsoon_ndvi": 0.567,
+      "vci_index": 59.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1992,
+      "preseason_may_ndvi": 0.269,
+      "peak_monsoon_ndvi": 0.61,
+      "vci_index": 68.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1993,
+      "preseason_may_ndvi": 0.283,
+      "peak_monsoon_ndvi": 0.635,
+      "vci_index": 74.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1993,
+      "preseason_may_ndvi": 0.259,
+      "peak_monsoon_ndvi": 0.581,
+      "vci_index": 62.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1993,
+      "preseason_may_ndvi": 0.226,
+      "peak_monsoon_ndvi": 0.534,
+      "vci_index": 52.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1993,
+      "preseason_may_ndvi": 0.204,
+      "peak_monsoon_ndvi": 0.517,
+      "vci_index": 48.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1993,
+      "preseason_may_ndvi": 0.226,
+      "peak_monsoon_ndvi": 0.538,
+      "vci_index": 52.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1993,
+      "preseason_may_ndvi": 0.273,
+      "peak_monsoon_ndvi": 0.564,
+      "vci_index": 58.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1994,
+      "preseason_may_ndvi": 0.27,
+      "peak_monsoon_ndvi": 0.705,
+      "vci_index": 90.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1994,
+      "preseason_may_ndvi": 0.261,
+      "peak_monsoon_ndvi": 0.611,
+      "vci_index": 69.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1994,
+      "preseason_may_ndvi": 0.187,
+      "peak_monsoon_ndvi": 0.571,
+      "vci_index": 60.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1994,
+      "preseason_may_ndvi": 0.22,
+      "peak_monsoon_ndvi": 0.575,
+      "vci_index": 61.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1994,
+      "preseason_may_ndvi": 0.222,
+      "peak_monsoon_ndvi": 0.577,
+      "vci_index": 61.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1994,
+      "preseason_may_ndvi": 0.245,
+      "peak_monsoon_ndvi": 0.587,
+      "vci_index": 63.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1995,
+      "preseason_may_ndvi": 0.291,
+      "peak_monsoon_ndvi": 0.631,
+      "vci_index": 73.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1995,
+      "preseason_may_ndvi": 0.253,
+      "peak_monsoon_ndvi": 0.573,
+      "vci_index": 60.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1995,
+      "preseason_may_ndvi": 0.25,
+      "peak_monsoon_ndvi": 0.556,
+      "vci_index": 56.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1995,
+      "preseason_may_ndvi": 0.254,
+      "peak_monsoon_ndvi": 0.557,
+      "vci_index": 57.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1995,
+      "preseason_may_ndvi": 0.277,
+      "peak_monsoon_ndvi": 0.581,
+      "vci_index": 62.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1995,
+      "preseason_may_ndvi": 0.301,
+      "peak_monsoon_ndvi": 0.578,
+      "vci_index": 61.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1996,
+      "preseason_may_ndvi": 0.267,
+      "peak_monsoon_ndvi": 0.599,
+      "vci_index": 66.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1996,
+      "preseason_may_ndvi": 0.246,
+      "peak_monsoon_ndvi": 0.617,
+      "vci_index": 70.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1996,
+      "preseason_may_ndvi": 0.239,
+      "peak_monsoon_ndvi": 0.609,
+      "vci_index": 68.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1996,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.602,
+      "vci_index": 67.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1996,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.603,
+      "vci_index": 67.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1996,
+      "preseason_may_ndvi": 0.261,
+      "peak_monsoon_ndvi": 0.665,
+      "vci_index": 81.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1997,
+      "preseason_may_ndvi": 0.288,
+      "peak_monsoon_ndvi": 0.599,
+      "vci_index": 66.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1997,
+      "preseason_may_ndvi": 0.281,
+      "peak_monsoon_ndvi": 0.565,
+      "vci_index": 58.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1997,
+      "preseason_may_ndvi": 0.244,
+      "peak_monsoon_ndvi": 0.54,
+      "vci_index": 53.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1997,
+      "preseason_may_ndvi": 0.238,
+      "peak_monsoon_ndvi": 0.534,
+      "vci_index": 52.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1997,
+      "preseason_may_ndvi": 0.247,
+      "peak_monsoon_ndvi": 0.543,
+      "vci_index": 54.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1997,
+      "preseason_may_ndvi": 0.254,
+      "peak_monsoon_ndvi": 0.617,
+      "vci_index": 70.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1998,
+      "preseason_may_ndvi": 0.275,
+      "peak_monsoon_ndvi": 0.654,
+      "vci_index": 78.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1998,
+      "preseason_may_ndvi": 0.241,
+      "peak_monsoon_ndvi": 0.629,
+      "vci_index": 73.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1998,
+      "preseason_may_ndvi": 0.219,
+      "peak_monsoon_ndvi": 0.602,
+      "vci_index": 67.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1998,
+      "preseason_may_ndvi": 0.205,
+      "peak_monsoon_ndvi": 0.588,
+      "vci_index": 64.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1998,
+      "preseason_may_ndvi": 0.201,
+      "peak_monsoon_ndvi": 0.584,
+      "vci_index": 63.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1998,
+      "preseason_may_ndvi": 0.243,
+      "peak_monsoon_ndvi": 0.627,
+      "vci_index": 72.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 1999,
+      "preseason_may_ndvi": 0.276,
+      "peak_monsoon_ndvi": 0.612,
+      "vci_index": 69.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 1999,
+      "preseason_may_ndvi": 0.253,
+      "peak_monsoon_ndvi": 0.52,
+      "vci_index": 48.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 1999,
+      "preseason_may_ndvi": 0.235,
+      "peak_monsoon_ndvi": 0.521,
+      "vci_index": 49.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 1999,
+      "preseason_may_ndvi": 0.235,
+      "peak_monsoon_ndvi": 0.505,
+      "vci_index": 45.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 1999,
+      "preseason_may_ndvi": 0.263,
+      "peak_monsoon_ndvi": 0.531,
+      "vci_index": 51.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 1999,
+      "preseason_may_ndvi": 0.265,
+      "peak_monsoon_ndvi": 0.532,
+      "vci_index": 51.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2000,
+      "preseason_may_ndvi": 0.279,
+      "peak_monsoon_ndvi": 0.585,
+      "vci_index": 63.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2000,
+      "preseason_may_ndvi": 0.246,
+      "peak_monsoon_ndvi": 0.599,
+      "vci_index": 66.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2000,
+      "preseason_may_ndvi": 0.199,
+      "peak_monsoon_ndvi": 0.528,
+      "vci_index": 50.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2000,
+      "preseason_may_ndvi": 0.215,
+      "peak_monsoon_ndvi": 0.574,
+      "vci_index": 60.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2000,
+      "preseason_may_ndvi": 0.226,
+      "peak_monsoon_ndvi": 0.585,
+      "vci_index": 63.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2000,
+      "preseason_may_ndvi": 0.292,
+      "peak_monsoon_ndvi": 0.705,
+      "vci_index": 90.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2001,
+      "preseason_may_ndvi": 0.29,
+      "peak_monsoon_ndvi": 0.56,
+      "vci_index": 57.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2001,
+      "preseason_may_ndvi": 0.265,
+      "peak_monsoon_ndvi": 0.551,
+      "vci_index": 55.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2001,
+      "preseason_may_ndvi": 0.244,
+      "peak_monsoon_ndvi": 0.497,
+      "vci_index": 43.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2001,
+      "preseason_may_ndvi": 0.219,
+      "peak_monsoon_ndvi": 0.497,
+      "vci_index": 43.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2001,
+      "preseason_may_ndvi": 0.257,
+      "peak_monsoon_ndvi": 0.534,
+      "vci_index": 52.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2001,
+      "preseason_may_ndvi": 0.297,
+      "peak_monsoon_ndvi": 0.58,
+      "vci_index": 62.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2002,
+      "preseason_may_ndvi": 0.287,
+      "peak_monsoon_ndvi": 0.625,
+      "vci_index": 72.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2002,
+      "preseason_may_ndvi": 0.243,
+      "peak_monsoon_ndvi": 0.554,
+      "vci_index": 56.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2002,
+      "preseason_may_ndvi": 0.243,
+      "peak_monsoon_ndvi": 0.576,
+      "vci_index": 61.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2002,
+      "preseason_may_ndvi": 0.204,
+      "peak_monsoon_ndvi": 0.519,
+      "vci_index": 48.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2002,
+      "preseason_may_ndvi": 0.238,
+      "peak_monsoon_ndvi": 0.552,
+      "vci_index": 56.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2002,
+      "preseason_may_ndvi": 0.285,
+      "peak_monsoon_ndvi": 0.566,
+      "vci_index": 59.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2003,
+      "preseason_may_ndvi": 0.262,
+      "peak_monsoon_ndvi": 0.642,
+      "vci_index": 76.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2003,
+      "preseason_may_ndvi": 0.237,
+      "peak_monsoon_ndvi": 0.583,
+      "vci_index": 62.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2003,
+      "preseason_may_ndvi": 0.22,
+      "peak_monsoon_ndvi": 0.59,
+      "vci_index": 64.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2003,
+      "preseason_may_ndvi": 0.205,
+      "peak_monsoon_ndvi": 0.559,
+      "vci_index": 57.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2003,
+      "preseason_may_ndvi": 0.203,
+      "peak_monsoon_ndvi": 0.556,
+      "vci_index": 56.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2003,
+      "preseason_may_ndvi": 0.252,
+      "peak_monsoon_ndvi": 0.582,
+      "vci_index": 62.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2004,
+      "preseason_may_ndvi": 0.262,
+      "peak_monsoon_ndvi": 0.532,
+      "vci_index": 51.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2004,
+      "preseason_may_ndvi": 0.268,
+      "peak_monsoon_ndvi": 0.526,
+      "vci_index": 50.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2004,
+      "preseason_may_ndvi": 0.218,
+      "peak_monsoon_ndvi": 0.481,
+      "vci_index": 40.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2004,
+      "preseason_may_ndvi": 0.247,
+      "peak_monsoon_ndvi": 0.509,
+      "vci_index": 46.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2004,
+      "preseason_may_ndvi": 0.229,
+      "peak_monsoon_ndvi": 0.49,
+      "vci_index": 42.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2004,
+      "preseason_may_ndvi": 0.271,
+      "peak_monsoon_ndvi": 0.546,
+      "vci_index": 54.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2005,
+      "preseason_may_ndvi": 0.284,
+      "peak_monsoon_ndvi": 0.687,
+      "vci_index": 86.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2005,
+      "preseason_may_ndvi": 0.236,
+      "peak_monsoon_ndvi": 0.649,
+      "vci_index": 77.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2005,
+      "preseason_may_ndvi": 0.227,
+      "peak_monsoon_ndvi": 0.64,
+      "vci_index": 75.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2005,
+      "preseason_may_ndvi": 0.234,
+      "peak_monsoon_ndvi": 0.644,
+      "vci_index": 76.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2005,
+      "preseason_may_ndvi": 0.209,
+      "peak_monsoon_ndvi": 0.62,
+      "vci_index": 71.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2005,
+      "preseason_may_ndvi": 0.268,
+      "peak_monsoon_ndvi": 0.662,
+      "vci_index": 80.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2006,
+      "preseason_may_ndvi": 0.326,
+      "peak_monsoon_ndvi": 0.724,
+      "vci_index": 94.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2006,
+      "preseason_may_ndvi": 0.311,
+      "peak_monsoon_ndvi": 0.657,
+      "vci_index": 79.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2006,
+      "preseason_may_ndvi": 0.257,
+      "peak_monsoon_ndvi": 0.622,
+      "vci_index": 71.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2006,
+      "preseason_may_ndvi": 0.25,
+      "peak_monsoon_ndvi": 0.598,
+      "vci_index": 66.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2006,
+      "preseason_may_ndvi": 0.282,
+      "peak_monsoon_ndvi": 0.631,
+      "vci_index": 73.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2006,
+      "preseason_may_ndvi": 0.296,
+      "peak_monsoon_ndvi": 0.624,
+      "vci_index": 72.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2007,
+      "preseason_may_ndvi": 0.278,
+      "peak_monsoon_ndvi": 0.64,
+      "vci_index": 75.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2007,
+      "preseason_may_ndvi": 0.252,
+      "peak_monsoon_ndvi": 0.613,
+      "vci_index": 69.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2007,
+      "preseason_may_ndvi": 0.221,
+      "peak_monsoon_ndvi": 0.568,
+      "vci_index": 59.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2007,
+      "preseason_may_ndvi": 0.221,
+      "peak_monsoon_ndvi": 0.583,
+      "vci_index": 62.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2007,
+      "preseason_may_ndvi": 0.231,
+      "peak_monsoon_ndvi": 0.594,
+      "vci_index": 65.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2007,
+      "preseason_may_ndvi": 0.245,
+      "peak_monsoon_ndvi": 0.675,
+      "vci_index": 83.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2008,
+      "preseason_may_ndvi": 0.319,
+      "peak_monsoon_ndvi": 0.662,
+      "vci_index": 80.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2008,
+      "preseason_may_ndvi": 0.296,
+      "peak_monsoon_ndvi": 0.647,
+      "vci_index": 77.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2008,
+      "preseason_may_ndvi": 0.254,
+      "peak_monsoon_ndvi": 0.598,
+      "vci_index": 66.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2008,
+      "preseason_may_ndvi": 0.273,
+      "peak_monsoon_ndvi": 0.618,
+      "vci_index": 70.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2008,
+      "preseason_may_ndvi": 0.264,
+      "peak_monsoon_ndvi": 0.609,
+      "vci_index": 68.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2008,
+      "preseason_may_ndvi": 0.31,
+      "peak_monsoon_ndvi": 0.671,
+      "vci_index": 82.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2009,
+      "preseason_may_ndvi": 0.292,
+      "peak_monsoon_ndvi": 0.608,
+      "vci_index": 68.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2009,
+      "preseason_may_ndvi": 0.241,
+      "peak_monsoon_ndvi": 0.559,
+      "vci_index": 57.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2009,
+      "preseason_may_ndvi": 0.24,
+      "peak_monsoon_ndvi": 0.551,
+      "vci_index": 55.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2009,
+      "preseason_may_ndvi": 0.225,
+      "peak_monsoon_ndvi": 0.54,
+      "vci_index": 53.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2009,
+      "preseason_may_ndvi": 0.24,
+      "peak_monsoon_ndvi": 0.555,
+      "vci_index": 56.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2009,
+      "preseason_may_ndvi": 0.298,
+      "peak_monsoon_ndvi": 0.607,
+      "vci_index": 68.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2010,
+      "preseason_may_ndvi": 0.263,
+      "peak_monsoon_ndvi": 0.731,
+      "vci_index": 95.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2010,
+      "preseason_may_ndvi": 0.228,
+      "peak_monsoon_ndvi": 0.67,
+      "vci_index": 82.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2010,
+      "preseason_may_ndvi": 0.209,
+      "peak_monsoon_ndvi": 0.691,
+      "vci_index": 86.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2010,
+      "preseason_may_ndvi": 0.204,
+      "peak_monsoon_ndvi": 0.655,
+      "vci_index": 78.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2010,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.675,
+      "vci_index": 83.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2010,
+      "preseason_may_ndvi": 0.298,
+      "peak_monsoon_ndvi": 0.663,
+      "vci_index": 80.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2011,
+      "preseason_may_ndvi": 0.276,
+      "peak_monsoon_ndvi": 0.623,
+      "vci_index": 71.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2011,
+      "preseason_may_ndvi": 0.247,
+      "peak_monsoon_ndvi": 0.591,
+      "vci_index": 64.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2011,
+      "preseason_may_ndvi": 0.221,
+      "peak_monsoon_ndvi": 0.526,
+      "vci_index": 50.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2011,
+      "preseason_may_ndvi": 0.228,
+      "peak_monsoon_ndvi": 0.521,
+      "vci_index": 49.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2011,
+      "preseason_may_ndvi": 0.217,
+      "peak_monsoon_ndvi": 0.509,
+      "vci_index": 46.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2011,
+      "preseason_may_ndvi": 0.295,
+      "peak_monsoon_ndvi": 0.58,
+      "vci_index": 62.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2012,
+      "preseason_may_ndvi": 0.272,
+      "peak_monsoon_ndvi": 0.656,
+      "vci_index": 79.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2012,
+      "preseason_may_ndvi": 0.227,
+      "peak_monsoon_ndvi": 0.567,
+      "vci_index": 59.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2012,
+      "preseason_may_ndvi": 0.204,
+      "peak_monsoon_ndvi": 0.579,
+      "vci_index": 62.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2012,
+      "preseason_may_ndvi": 0.215,
+      "peak_monsoon_ndvi": 0.557,
+      "vci_index": 57.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2012,
+      "preseason_may_ndvi": 0.216,
+      "peak_monsoon_ndvi": 0.558,
+      "vci_index": 57.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2012,
+      "preseason_may_ndvi": 0.278,
+      "peak_monsoon_ndvi": 0.616,
+      "vci_index": 70.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2013,
+      "preseason_may_ndvi": 0.282,
+      "peak_monsoon_ndvi": 0.736,
+      "vci_index": 96.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2013,
+      "preseason_may_ndvi": 0.251,
+      "peak_monsoon_ndvi": 0.658,
+      "vci_index": 79.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2013,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.63,
+      "vci_index": 73.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2013,
+      "preseason_may_ndvi": 0.203,
+      "peak_monsoon_ndvi": 0.583,
+      "vci_index": 62.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2013,
+      "preseason_may_ndvi": 0.226,
+      "peak_monsoon_ndvi": 0.606,
+      "vci_index": 68.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2013,
+      "preseason_may_ndvi": 0.274,
+      "peak_monsoon_ndvi": 0.653,
+      "vci_index": 78.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2014,
+      "preseason_may_ndvi": 0.312,
+      "peak_monsoon_ndvi": 0.577,
+      "vci_index": 61.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2014,
+      "preseason_may_ndvi": 0.272,
+      "peak_monsoon_ndvi": 0.516,
+      "vci_index": 48.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2014,
+      "preseason_may_ndvi": 0.268,
+      "peak_monsoon_ndvi": 0.501,
+      "vci_index": 44.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2014,
+      "preseason_may_ndvi": 0.256,
+      "peak_monsoon_ndvi": 0.475,
+      "vci_index": 38.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2014,
+      "preseason_may_ndvi": 0.251,
+      "peak_monsoon_ndvi": 0.468,
+      "vci_index": 37.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2014,
+      "preseason_may_ndvi": 0.276,
+      "peak_monsoon_ndvi": 0.531,
+      "vci_index": 51.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2015,
+      "preseason_may_ndvi": 0.301,
+      "peak_monsoon_ndvi": 0.593,
+      "vci_index": 65.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2015,
+      "preseason_may_ndvi": 0.259,
+      "peak_monsoon_ndvi": 0.49,
+      "vci_index": 42.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2015,
+      "preseason_may_ndvi": 0.244,
+      "peak_monsoon_ndvi": 0.497,
+      "vci_index": 43.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2015,
+      "preseason_may_ndvi": 0.233,
+      "peak_monsoon_ndvi": 0.467,
+      "vci_index": 37.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2015,
+      "preseason_may_ndvi": 0.249,
+      "peak_monsoon_ndvi": 0.481,
+      "vci_index": 40.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2015,
+      "preseason_may_ndvi": 0.266,
+      "peak_monsoon_ndvi": 0.571,
+      "vci_index": 60.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2016,
+      "preseason_may_ndvi": 0.27,
+      "peak_monsoon_ndvi": 0.653,
+      "vci_index": 78.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2016,
+      "preseason_may_ndvi": 0.236,
+      "peak_monsoon_ndvi": 0.575,
+      "vci_index": 61.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2016,
+      "preseason_may_ndvi": 0.236,
+      "peak_monsoon_ndvi": 0.624,
+      "vci_index": 72.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2016,
+      "preseason_may_ndvi": 0.229,
+      "peak_monsoon_ndvi": 0.593,
+      "vci_index": 65.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2016,
+      "preseason_may_ndvi": 0.239,
+      "peak_monsoon_ndvi": 0.604,
+      "vci_index": 67.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2016,
+      "preseason_may_ndvi": 0.319,
+      "peak_monsoon_ndvi": 0.68,
+      "vci_index": 84.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2017,
+      "preseason_may_ndvi": 0.285,
+      "peak_monsoon_ndvi": 0.605,
+      "vci_index": 67.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2017,
+      "preseason_may_ndvi": 0.253,
+      "peak_monsoon_ndvi": 0.541,
+      "vci_index": 53.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2017,
+      "preseason_may_ndvi": 0.245,
+      "peak_monsoon_ndvi": 0.596,
+      "vci_index": 65.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2017,
+      "preseason_may_ndvi": 0.234,
+      "peak_monsoon_ndvi": 0.604,
+      "vci_index": 67.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2017,
+      "preseason_may_ndvi": 0.233,
+      "peak_monsoon_ndvi": 0.603,
+      "vci_index": 67.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2017,
+      "preseason_may_ndvi": 0.281,
+      "peak_monsoon_ndvi": 0.708,
+      "vci_index": 90.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2018,
+      "preseason_may_ndvi": 0.264,
+      "peak_monsoon_ndvi": 0.639,
+      "vci_index": 75.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2018,
+      "preseason_may_ndvi": 0.247,
+      "peak_monsoon_ndvi": 0.528,
+      "vci_index": 50.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2018,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.598,
+      "vci_index": 66.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2018,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.558,
+      "vci_index": 57.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2018,
+      "preseason_may_ndvi": 0.26,
+      "peak_monsoon_ndvi": 0.595,
+      "vci_index": 65.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2018,
+      "preseason_may_ndvi": 0.24,
+      "peak_monsoon_ndvi": 0.584,
+      "vci_index": 63.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2019,
+      "preseason_may_ndvi": 0.273,
+      "peak_monsoon_ndvi": 0.641,
+      "vci_index": 75.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2019,
+      "preseason_may_ndvi": 0.218,
+      "peak_monsoon_ndvi": 0.556,
+      "vci_index": 56.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2019,
+      "preseason_may_ndvi": 0.216,
+      "peak_monsoon_ndvi": 0.611,
+      "vci_index": 69.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2019,
+      "preseason_may_ndvi": 0.231,
+      "peak_monsoon_ndvi": 0.59,
+      "vci_index": 64.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2019,
+      "preseason_may_ndvi": 0.228,
+      "peak_monsoon_ndvi": 0.588,
+      "vci_index": 64.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2019,
+      "preseason_may_ndvi": 0.254,
+      "peak_monsoon_ndvi": 0.603,
+      "vci_index": 67.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2020,
+      "preseason_may_ndvi": 0.28,
+      "peak_monsoon_ndvi": 0.656,
+      "vci_index": 79.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2020,
+      "preseason_may_ndvi": 0.263,
+      "peak_monsoon_ndvi": 0.628,
+      "vci_index": 72.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2020,
+      "preseason_may_ndvi": 0.236,
+      "peak_monsoon_ndvi": 0.738,
+      "vci_index": 97.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2020,
+      "preseason_may_ndvi": 0.236,
+      "peak_monsoon_ndvi": 0.758,
+      "vci_index": 98.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2020,
+      "preseason_may_ndvi": 0.243,
+      "peak_monsoon_ndvi": 0.769,
+      "vci_index": 98.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2020,
+      "preseason_may_ndvi": 0.257,
+      "peak_monsoon_ndvi": 0.77,
+      "vci_index": 98.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2021,
+      "preseason_may_ndvi": 0.304,
+      "peak_monsoon_ndvi": 0.768,
+      "vci_index": 98.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2021,
+      "preseason_may_ndvi": 0.263,
+      "peak_monsoon_ndvi": 0.701,
+      "vci_index": 89.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2021,
+      "preseason_may_ndvi": 0.209,
+      "peak_monsoon_ndvi": 0.665,
+      "vci_index": 81.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2021,
+      "preseason_may_ndvi": 0.227,
+      "peak_monsoon_ndvi": 0.681,
+      "vci_index": 84.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2021,
+      "preseason_may_ndvi": 0.227,
+      "peak_monsoon_ndvi": 0.683,
+      "vci_index": 85.1,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2021,
+      "preseason_may_ndvi": 0.284,
+      "peak_monsoon_ndvi": 0.714,
+      "vci_index": 92.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2022,
+      "preseason_may_ndvi": 0.262,
+      "peak_monsoon_ndvi": 0.78,
+      "vci_index": 98.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2022,
+      "preseason_may_ndvi": 0.244,
+      "peak_monsoon_ndvi": 0.711,
+      "vci_index": 91.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2022,
+      "preseason_may_ndvi": 0.228,
+      "peak_monsoon_ndvi": 0.764,
+      "vci_index": 98.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2022,
+      "preseason_may_ndvi": 0.223,
+      "peak_monsoon_ndvi": 0.711,
+      "vci_index": 91.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2022,
+      "preseason_may_ndvi": 0.208,
+      "peak_monsoon_ndvi": 0.698,
+      "vci_index": 88.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2022,
+      "preseason_may_ndvi": 0.259,
+      "peak_monsoon_ndvi": 0.652,
+      "vci_index": 78.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2023,
+      "preseason_may_ndvi": 0.31,
+      "peak_monsoon_ndvi": 0.703,
+      "vci_index": 89.6,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2023,
+      "preseason_may_ndvi": 0.294,
+      "peak_monsoon_ndvi": 0.636,
+      "vci_index": 74.7,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2023,
+      "preseason_may_ndvi": 0.296,
+      "peak_monsoon_ndvi": 0.687,
+      "vci_index": 86.0,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2023,
+      "preseason_may_ndvi": 0.268,
+      "peak_monsoon_ndvi": 0.635,
+      "vci_index": 74.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2023,
+      "preseason_may_ndvi": 0.258,
+      "peak_monsoon_ndvi": 0.626,
+      "vci_index": 72.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2023,
+      "preseason_may_ndvi": 0.304,
+      "peak_monsoon_ndvi": 0.628,
+      "vci_index": 72.9,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "ADI",
+      "district_name": "Adilabad",
+      "year": 2024,
+      "preseason_may_ndvi": 0.323,
+      "peak_monsoon_ndvi": 0.713,
+      "vci_index": 91.8,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "NIZ",
+      "district_name": "Nizamabad",
+      "year": 2024,
+      "preseason_may_ndvi": 0.284,
+      "peak_monsoon_ndvi": 0.653,
+      "vci_index": 78.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KAR",
+      "district_name": "Karimnagar",
+      "year": 2024,
+      "preseason_may_ndvi": 0.233,
+      "peak_monsoon_ndvi": 0.634,
+      "vci_index": 74.2,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "HAN",
+      "district_name": "Hanamkonda",
+      "year": 2024,
+      "preseason_may_ndvi": 0.237,
+      "peak_monsoon_ndvi": 0.63,
+      "vci_index": 73.3,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "WAR",
+      "district_name": "Warangal",
+      "year": 2024,
+      "preseason_may_ndvi": 0.268,
+      "peak_monsoon_ndvi": 0.662,
+      "vci_index": 80.4,
+      "is_vegetation_stressed": 0
+    },
+    {
+      "district_id": "KHA",
+      "district_name": "Khammam",
+      "year": 2024,
+      "preseason_may_ndvi": 0.271,
+      "peak_monsoon_ndvi": 0.707,
+      "vci_index": 90.4,
+      "is_vegetation_stressed": 0
+    }
+  ]
+}

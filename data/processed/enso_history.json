@@ -1,0 +1,7385 @@
+{
+  "metadata": {
+    "provider": "NOAA Climate Prediction Center (CPC)",
+    "product_name": "Oceanic Ni\u00f1o Index (ONI) - ERSST.v5 Ni\u00f1o 3.4 SST Anomalies",
+    "source_url": "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
+    "spatial_coverage": "Ni\u00f1o 3.4 Region (5\u00b0N-5\u00b0S, 120\u00b0-170\u00b0W)",
+    "spatial_resolution": "Area-averaged gridded SST",
+    "temporal_resolution": "3-month running mean (Monthly timestep)",
+    "time_range": "1950 to 2026",
+    "total_observations": 920,
+    "total_historical_events": 42,
+    "retrieval_timestamp": "2026-10-26T16:11:56.460378Z",
+    "classification_rule": "NOAA CPC official 5-consecutive-season threshold (+/- 0.5 \u00b0C)",
+    "latest_observation": {
+      "season": "JAS",
+      "year": 2026,
+      "total_sst": 29.12,
+      "anomaly": 2.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    }
+  },
+  "data": [
+    {
+      "season": "DJF",
+      "year": 1950,
+      "total_sst": 25.01,
+      "anomaly": -1.32,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1950,
+      "total_sst": 25.36,
+      "anomaly": -1.2,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1950,
+      "total_sst": 25.88,
+      "anomaly": -1.12,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1950,
+      "total_sst": 26.24,
+      "anomaly": -1.08,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1950,
+      "total_sst": 26.35,
+      "anomaly": -1.1,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1950,
+      "total_sst": 26.32,
+      "anomaly": -0.9,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1950,
+      "total_sst": 26.24,
+      "anomaly": -0.62,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1950,
+      "total_sst": 25.94,
+      "anomaly": -0.57,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1950,
+      "total_sst": 25.76,
+      "anomaly": -0.56,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1950,
+      "total_sst": 25.6,
+      "anomaly": -0.62,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1950,
+      "total_sst": 25.55,
+      "anomaly": -0.66,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1950,
+      "total_sst": 25.41,
+      "anomaly": -0.79,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1951,
+      "total_sst": 25.67,
+      "anomaly": -0.66,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1951,
+      "total_sst": 26.2,
+      "anomaly": -0.36,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1951,
+      "total_sst": 26.96,
+      "anomaly": -0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1951,
+      "total_sst": 27.48,
+      "anomaly": 0.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1951,
+      "total_sst": 27.72,
+      "anomaly": 0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1951,
+      "total_sst": 27.72,
+      "anomaly": 0.5,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1951,
+      "total_sst": 27.57,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1951,
+      "total_sst": 27.41,
+      "anomaly": 0.9,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1951,
+      "total_sst": 27.34,
+      "anomaly": 1.02,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1951,
+      "total_sst": 27.25,
+      "anomaly": 1.03,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1951,
+      "total_sst": 27.18,
+      "anomaly": 0.96,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1951,
+      "total_sst": 26.91,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1952,
+      "total_sst": 26.86,
+      "anomaly": 0.52,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1952,
+      "total_sst": 26.82,
+      "anomaly": 0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1952,
+      "total_sst": 27.33,
+      "anomaly": 0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1952,
+      "total_sst": 27.5,
+      "anomaly": 0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1952,
+      "total_sst": 27.38,
+      "anomaly": -0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1952,
+      "total_sst": 26.78,
+      "anomaly": -0.44,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1952,
+      "total_sst": 26.41,
+      "anomaly": -0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1952,
+      "total_sst": 26.31,
+      "anomaly": -0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1952,
+      "total_sst": 26.35,
+      "anomaly": 0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1952,
+      "total_sst": 26.26,
+      "anomaly": 0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1952,
+      "total_sst": 26.11,
+      "anomaly": -0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1952,
+      "total_sst": 26.25,
+      "anomaly": 0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1953,
+      "total_sst": 26.58,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1953,
+      "total_sst": 27.06,
+      "anomaly": 0.5,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1953,
+      "total_sst": 27.48,
+      "anomaly": 0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1953,
+      "total_sst": 27.88,
+      "anomaly": 0.56,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1953,
+      "total_sst": 28.22,
+      "anomaly": 0.77,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1953,
+      "total_sst": 27.96,
+      "anomaly": 0.74,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1953,
+      "total_sst": 27.49,
+      "anomaly": 0.63,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1953,
+      "total_sst": 27.19,
+      "anomaly": 0.68,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1953,
+      "total_sst": 26.91,
+      "anomaly": 0.59,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1953,
+      "total_sst": 27.0,
+      "anomaly": 0.78,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1953,
+      "total_sst": 26.74,
+      "anomaly": 0.52,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1953,
+      "total_sst": 26.76,
+      "anomaly": 0.56,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1954,
+      "total_sst": 26.74,
+      "anomaly": 0.41,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1954,
+      "total_sst": 26.91,
+      "anomaly": 0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1954,
+      "total_sst": 27.01,
+      "anomaly": 0.01,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1954,
+      "total_sst": 27.04,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1954,
+      "total_sst": 26.97,
+      "anomaly": -0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1954,
+      "total_sst": 26.74,
+      "anomaly": -0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1954,
+      "total_sst": 26.18,
+      "anomaly": -0.67,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1954,
+      "total_sst": 25.68,
+      "anomaly": -0.83,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1954,
+      "total_sst": 25.58,
+      "anomaly": -0.73,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1954,
+      "total_sst": 25.7,
+      "anomaly": -0.52,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1954,
+      "total_sst": 25.82,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1954,
+      "total_sst": 25.76,
+      "anomaly": -0.44,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1955,
+      "total_sst": 25.83,
+      "anomaly": -0.5,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1955,
+      "total_sst": 26.08,
+      "anomaly": -0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1955,
+      "total_sst": 26.42,
+      "anomaly": -0.58,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1955,
+      "total_sst": 26.56,
+      "anomaly": -0.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1955,
+      "total_sst": 26.67,
+      "anomaly": -0.78,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1955,
+      "total_sst": 26.34,
+      "anomaly": -0.88,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1955,
+      "total_sst": 26.13,
+      "anomaly": -0.72,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1955,
+      "total_sst": 25.59,
+      "anomaly": -0.92,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1955,
+      "total_sst": 25.21,
+      "anomaly": -1.11,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1955,
+      "total_sst": 24.78,
+      "anomaly": -1.44,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1955,
+      "total_sst": 24.63,
+      "anomaly": -1.59,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1955,
+      "total_sst": 24.73,
+      "anomaly": -1.51,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1956,
+      "total_sst": 25.2,
+      "anomaly": -1.17,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1956,
+      "total_sst": 25.82,
+      "anomaly": -0.81,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1956,
+      "total_sst": 26.47,
+      "anomaly": -0.57,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1956,
+      "total_sst": 26.84,
+      "anomaly": -0.51,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1956,
+      "total_sst": 27.0,
+      "anomaly": -0.49,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1956,
+      "total_sst": 26.81,
+      "anomaly": -0.47,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1956,
+      "total_sst": 26.37,
+      "anomaly": -0.55,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1956,
+      "total_sst": 26.02,
+      "anomaly": -0.52,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1956,
+      "total_sst": 25.9,
+      "anomaly": -0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1956,
+      "total_sst": 25.85,
+      "anomaly": -0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1956,
+      "total_sst": 25.87,
+      "anomaly": -0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1956,
+      "total_sst": 25.87,
+      "anomaly": -0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1957,
+      "total_sst": 26.11,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1957,
+      "total_sst": 26.57,
+      "anomaly": -0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1957,
+      "total_sst": 27.3,
+      "anomaly": 0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1957,
+      "total_sst": 27.99,
+      "anomaly": 0.63,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1957,
+      "total_sst": 28.21,
+      "anomaly": 0.72,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1957,
+      "total_sst": 28.09,
+      "anomaly": 0.82,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1957,
+      "total_sst": 27.88,
+      "anomaly": 0.96,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1957,
+      "total_sst": 27.57,
+      "anomaly": 1.03,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1957,
+      "total_sst": 27.45,
+      "anomaly": 1.12,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1957,
+      "total_sst": 27.38,
+      "anomaly": 1.15,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1957,
+      "total_sst": 27.63,
+      "anomaly": 1.39,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1957,
+      "total_sst": 27.87,
+      "anomaly": 1.62,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1958,
+      "total_sst": 28.07,
+      "anomaly": 1.69,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1958,
+      "total_sst": 28.21,
+      "anomaly": 1.59,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1958,
+      "total_sst": 28.21,
+      "anomaly": 1.17,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1958,
+      "total_sst": 28.2,
+      "anomaly": 0.84,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1958,
+      "total_sst": 28.06,
+      "anomaly": 0.57,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1958,
+      "total_sst": 27.77,
+      "anomaly": 0.49,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1958,
+      "total_sst": 27.36,
+      "anomaly": 0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1958,
+      "total_sst": 26.86,
+      "anomaly": 0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1958,
+      "total_sst": 26.61,
+      "anomaly": 0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1958,
+      "total_sst": 26.53,
+      "anomaly": 0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1958,
+      "total_sst": 26.6,
+      "anomaly": 0.36,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1958,
+      "total_sst": 26.82,
+      "anomaly": 0.56,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1959,
+      "total_sst": 26.99,
+      "anomaly": 0.6,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1959,
+      "total_sst": 27.27,
+      "anomaly": 0.64,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1959,
+      "total_sst": 27.51,
+      "anomaly": 0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1959,
+      "total_sst": 27.75,
+      "anomaly": 0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1959,
+      "total_sst": 27.73,
+      "anomaly": 0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1959,
+      "total_sst": 27.29,
+      "anomaly": 0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1959,
+      "total_sst": 26.74,
+      "anomaly": -0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1959,
+      "total_sst": 26.31,
+      "anomaly": -0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1959,
+      "total_sst": 26.29,
+      "anomaly": -0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1959,
+      "total_sst": 26.34,
+      "anomaly": 0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1959,
+      "total_sst": 26.47,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1959,
+      "total_sst": 26.4,
+      "anomaly": 0.14,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1960,
+      "total_sst": 26.4,
+      "anomaly": 0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1960,
+      "total_sst": 26.65,
+      "anomaly": 0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1960,
+      "total_sst": 27.1,
+      "anomaly": 0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1960,
+      "total_sst": 27.52,
+      "anomaly": 0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1960,
+      "total_sst": 27.53,
+      "anomaly": 0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1960,
+      "total_sst": 27.27,
+      "anomaly": 0.0,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1960,
+      "total_sst": 26.93,
+      "anomaly": 0.01,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1960,
+      "total_sst": 26.69,
+      "anomaly": 0.15,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1960,
+      "total_sst": 26.52,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1960,
+      "total_sst": 26.32,
+      "anomaly": 0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1960,
+      "total_sst": 26.17,
+      "anomaly": -0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1960,
+      "total_sst": 26.16,
+      "anomaly": -0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1961,
+      "total_sst": 26.34,
+      "anomaly": 0.0,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1961,
+      "total_sst": 26.6,
+      "anomaly": 0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1961,
+      "total_sst": 26.98,
+      "anomaly": 0.01,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1961,
+      "total_sst": 27.33,
+      "anomaly": 0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1961,
+      "total_sst": 27.62,
+      "anomaly": 0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1961,
+      "total_sst": 27.41,
+      "anomaly": 0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1961,
+      "total_sst": 26.94,
+      "anomaly": 0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1961,
+      "total_sst": 26.32,
+      "anomaly": -0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1961,
+      "total_sst": 26.01,
+      "anomaly": -0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1961,
+      "total_sst": 26.02,
+      "anomaly": -0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1961,
+      "total_sst": 26.09,
+      "anomaly": -0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1961,
+      "total_sst": 26.14,
+      "anomaly": -0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1962,
+      "total_sst": 26.16,
+      "anomaly": -0.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1962,
+      "total_sst": 26.4,
+      "anomaly": -0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1962,
+      "total_sst": 26.83,
+      "anomaly": -0.15,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1962,
+      "total_sst": 27.09,
+      "anomaly": -0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1962,
+      "total_sst": 27.21,
+      "anomaly": -0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1962,
+      "total_sst": 27.06,
+      "anomaly": -0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1962,
+      "total_sst": 26.85,
+      "anomaly": 0.0,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1962,
+      "total_sst": 26.42,
+      "anomaly": -0.1,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1962,
+      "total_sst": 26.17,
+      "anomaly": -0.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1962,
+      "total_sst": 25.98,
+      "anomaly": -0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1962,
+      "total_sst": 25.95,
+      "anomaly": -0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1962,
+      "total_sst": 25.87,
+      "anomaly": -0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1963,
+      "total_sst": 25.98,
+      "anomaly": -0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1963,
+      "total_sst": 26.4,
+      "anomaly": -0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1963,
+      "total_sst": 26.99,
+      "anomaly": 0.01,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1963,
+      "total_sst": 27.41,
+      "anomaly": 0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1963,
+      "total_sst": 27.52,
+      "anomaly": 0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1963,
+      "total_sst": 27.64,
+      "anomaly": 0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1963,
+      "total_sst": 27.61,
+      "anomaly": 0.76,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1963,
+      "total_sst": 27.61,
+      "anomaly": 1.09,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1963,
+      "total_sst": 27.42,
+      "anomaly": 1.09,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1963,
+      "total_sst": 27.37,
+      "anomaly": 1.13,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1963,
+      "total_sst": 27.39,
+      "anomaly": 1.19,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1963,
+      "total_sst": 27.33,
+      "anomaly": 1.13,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1964,
+      "total_sst": 27.26,
+      "anomaly": 0.95,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1964,
+      "total_sst": 27.09,
+      "anomaly": 0.52,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1964,
+      "total_sst": 27.04,
+      "anomaly": 0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1964,
+      "total_sst": 26.93,
+      "anomaly": -0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1964,
+      "total_sst": 26.8,
+      "anomaly": -0.6,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1964,
+      "total_sst": 26.53,
+      "anomaly": -0.66,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1964,
+      "total_sst": 26.19,
+      "anomaly": -0.67,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1964,
+      "total_sst": 25.82,
+      "anomaly": -0.7,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1964,
+      "total_sst": 25.6,
+      "anomaly": -0.72,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1964,
+      "total_sst": 25.44,
+      "anomaly": -0.8,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1964,
+      "total_sst": 25.41,
+      "anomaly": -0.79,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1964,
+      "total_sst": 25.45,
+      "anomaly": -0.75,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1965,
+      "total_sst": 25.8,
+      "anomaly": -0.51,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1965,
+      "total_sst": 26.32,
+      "anomaly": -0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1965,
+      "total_sst": 26.93,
+      "anomaly": -0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1965,
+      "total_sst": 27.45,
+      "anomaly": 0.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1965,
+      "total_sst": 27.86,
+      "anomaly": 0.47,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1965,
+      "total_sst": 27.98,
+      "anomaly": 0.79,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1965,
+      "total_sst": 27.95,
+      "anomaly": 1.1,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1965,
+      "total_sst": 27.79,
+      "anomaly": 1.27,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1965,
+      "total_sst": 27.87,
+      "anomaly": 1.55,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1965,
+      "total_sst": 27.93,
+      "anomaly": 1.7,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1965,
+      "total_sst": 28.02,
+      "anomaly": 1.82,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1965,
+      "total_sst": 27.83,
+      "anomaly": 1.6,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1966,
+      "total_sst": 27.61,
+      "anomaly": 1.24,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1966,
+      "total_sst": 27.6,
+      "anomaly": 0.95,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1966,
+      "total_sst": 27.79,
+      "anomaly": 0.76,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1966,
+      "total_sst": 27.77,
+      "anomaly": 0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1966,
+      "total_sst": 27.68,
+      "anomaly": 0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1966,
+      "total_sst": 27.44,
+      "anomaly": 0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1966,
+      "total_sst": 27.18,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1966,
+      "total_sst": 26.73,
+      "anomaly": 0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1966,
+      "total_sst": 26.34,
+      "anomaly": -0.09,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1966,
+      "total_sst": 26.27,
+      "anomaly": -0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1966,
+      "total_sst": 26.17,
+      "anomaly": -0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1966,
+      "total_sst": 26.02,
+      "anomaly": -0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1967,
+      "total_sst": 25.97,
+      "anomaly": -0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1967,
+      "total_sst": 26.18,
+      "anomaly": -0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1967,
+      "total_sst": 26.53,
+      "anomaly": -0.5,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1967,
+      "total_sst": 26.97,
+      "anomaly": -0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1967,
+      "total_sst": 27.3,
+      "anomaly": -0.15,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1967,
+      "total_sst": 27.31,
+      "anomaly": 0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1967,
+      "total_sst": 26.92,
+      "anomaly": -0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1967,
+      "total_sst": 26.33,
+      "anomaly": -0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1967,
+      "total_sst": 26.03,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1967,
+      "total_sst": 25.99,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1967,
+      "total_sst": 26.03,
+      "anomaly": -0.36,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1967,
+      "total_sst": 25.95,
+      "anomaly": -0.42,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1968,
+      "total_sst": 25.81,
+      "anomaly": -0.62,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1968,
+      "total_sst": 25.92,
+      "anomaly": -0.73,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1968,
+      "total_sst": 26.41,
+      "anomaly": -0.63,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1968,
+      "total_sst": 26.85,
+      "anomaly": -0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1968,
+      "total_sst": 27.35,
+      "anomaly": -0.1,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1968,
+      "total_sst": 27.43,
+      "anomaly": 0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1968,
+      "total_sst": 27.37,
+      "anomaly": 0.44,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1968,
+      "total_sst": 26.97,
+      "anomaly": 0.38,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1968,
+      "total_sst": 26.78,
+      "anomaly": 0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1968,
+      "total_sst": 26.9,
+      "anomaly": 0.5,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1968,
+      "total_sst": 27.06,
+      "anomaly": 0.66,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1968,
+      "total_sst": 27.3,
+      "anomaly": 0.93,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1969,
+      "total_sst": 27.42,
+      "anomaly": 0.98,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1969,
+      "total_sst": 27.63,
+      "anomaly": 0.98,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1969,
+      "total_sst": 27.8,
+      "anomaly": 0.77,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1969,
+      "total_sst": 28.02,
+      "anomaly": 0.69,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1969,
+      "total_sst": 28.06,
+      "anomaly": 0.62,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1969,
+      "total_sst": 27.74,
+      "anomaly": 0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1969,
+      "total_sst": 27.3,
+      "anomaly": 0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1969,
+      "total_sst": 27.0,
+      "anomaly": 0.41,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1969,
+      "total_sst": 27.04,
+      "anomaly": 0.61,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1969,
+      "total_sst": 27.11,
+      "anomaly": 0.71,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1969,
+      "total_sst": 27.21,
+      "anomaly": 0.81,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1969,
+      "total_sst": 27.08,
+      "anomaly": 0.71,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1970,
+      "total_sst": 26.89,
+      "anomaly": 0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1970,
+      "total_sst": 26.89,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1970,
+      "total_sst": 27.27,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1970,
+      "total_sst": 27.61,
+      "anomaly": 0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1970,
+      "total_sst": 27.56,
+      "anomaly": 0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1970,
+      "total_sst": 27.0,
+      "anomaly": -0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1970,
+      "total_sst": 26.38,
+      "anomaly": -0.55,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1970,
+      "total_sst": 25.88,
+      "anomaly": -0.72,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1970,
+      "total_sst": 25.74,
+      "anomaly": -0.69,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1970,
+      "total_sst": 25.67,
+      "anomaly": -0.72,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1970,
+      "total_sst": 25.61,
+      "anomaly": -0.78,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1970,
+      "total_sst": 25.29,
+      "anomaly": -1.1,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1971,
+      "total_sst": 25.17,
+      "anomaly": -1.29,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1971,
+      "total_sst": 25.34,
+      "anomaly": -1.36,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1971,
+      "total_sst": 25.97,
+      "anomaly": -1.08,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1971,
+      "total_sst": 26.55,
+      "anomaly": -0.81,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1971,
+      "total_sst": 26.76,
+      "anomaly": -0.72,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1971,
+      "total_sst": 26.62,
+      "anomaly": -0.69,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1971,
+      "total_sst": 26.3,
+      "anomaly": -0.68,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1971,
+      "total_sst": 26.05,
+      "anomaly": -0.6,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1971,
+      "total_sst": 25.81,
+      "anomaly": -0.68,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1971,
+      "total_sst": 25.68,
+      "anomaly": -0.78,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1971,
+      "total_sst": 25.59,
+      "anomaly": -0.86,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1971,
+      "total_sst": 25.65,
+      "anomaly": -0.78,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1972,
+      "total_sst": 25.92,
+      "anomaly": -0.57,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1972,
+      "total_sst": 26.42,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1972,
+      "total_sst": 27.09,
+      "anomaly": 0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1972,
+      "total_sst": 27.61,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1972,
+      "total_sst": 27.96,
+      "anomaly": 0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1972,
+      "total_sst": 28.0,
+      "anomaly": 0.7,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1972,
+      "total_sst": 27.98,
+      "anomaly": 1.0,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1972,
+      "total_sst": 27.91,
+      "anomaly": 1.26,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1972,
+      "total_sst": 27.98,
+      "anomaly": 1.49,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1972,
+      "total_sst": 28.14,
+      "anomaly": 1.69,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1972,
+      "total_sst": 28.3,
+      "anomaly": 1.84,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1972,
+      "total_sst": 28.2,
+      "anomaly": 1.77,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1973,
+      "total_sst": 28.03,
+      "anomaly": 1.55,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1973,
+      "total_sst": 27.82,
+      "anomaly": 1.13,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1973,
+      "total_sst": 27.61,
+      "anomaly": 0.56,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1973,
+      "total_sst": 27.33,
+      "anomaly": -0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1973,
+      "total_sst": 26.97,
+      "anomaly": -0.51,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1973,
+      "total_sst": 26.51,
+      "anomaly": -0.8,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1973,
+      "total_sst": 25.99,
+      "anomaly": -0.99,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1973,
+      "total_sst": 25.54,
+      "anomaly": -1.11,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1973,
+      "total_sst": 25.23,
+      "anomaly": -1.26,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1973,
+      "total_sst": 24.87,
+      "anomaly": -1.58,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1973,
+      "total_sst": 24.57,
+      "anomaly": -1.89,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1973,
+      "total_sst": 24.39,
+      "anomaly": -2.04,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Very Strong La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1974,
+      "total_sst": 24.61,
+      "anomaly": -1.87,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1974,
+      "total_sst": 25.1,
+      "anomaly": -1.59,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1974,
+      "total_sst": 25.82,
+      "anomaly": -1.24,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1974,
+      "total_sst": 26.37,
+      "anomaly": -0.99,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1974,
+      "total_sst": 26.77,
+      "anomaly": -0.71,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1974,
+      "total_sst": 26.67,
+      "anomaly": -0.64,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1974,
+      "total_sst": 26.52,
+      "anomaly": -0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1974,
+      "total_sst": 26.25,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1974,
+      "total_sst": 26.02,
+      "anomaly": -0.47,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1974,
+      "total_sst": 25.76,
+      "anomaly": -0.69,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1974,
+      "total_sst": 25.57,
+      "anomaly": -0.88,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1974,
+      "total_sst": 25.72,
+      "anomaly": -0.71,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1975,
+      "total_sst": 25.92,
+      "anomaly": -0.56,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1975,
+      "total_sst": 26.15,
+      "anomaly": -0.55,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1975,
+      "total_sst": 26.44,
+      "anomaly": -0.61,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1975,
+      "total_sst": 26.7,
+      "anomaly": -0.66,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1975,
+      "total_sst": 26.68,
+      "anomaly": -0.8,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1975,
+      "total_sst": 26.39,
+      "anomaly": -0.92,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1975,
+      "total_sst": 25.9,
+      "anomaly": -1.08,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1975,
+      "total_sst": 25.54,
+      "anomaly": -1.12,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1975,
+      "total_sst": 25.2,
+      "anomaly": -1.29,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1975,
+      "total_sst": 25.14,
+      "anomaly": -1.32,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1975,
+      "total_sst": 24.98,
+      "anomaly": -1.47,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1975,
+      "total_sst": 24.84,
+      "anomaly": -1.58,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1976,
+      "total_sst": 24.98,
+      "anomaly": -1.49,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1976,
+      "total_sst": 25.55,
+      "anomaly": -1.11,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1976,
+      "total_sst": 26.37,
+      "anomaly": -0.65,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1976,
+      "total_sst": 26.87,
+      "anomaly": -0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1976,
+      "total_sst": 27.21,
+      "anomaly": -0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1976,
+      "total_sst": 27.28,
+      "anomaly": 0.0,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1976,
+      "total_sst": 27.21,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1976,
+      "total_sst": 27.09,
+      "anomaly": 0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1976,
+      "total_sst": 27.13,
+      "anomaly": 0.6,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1976,
+      "total_sst": 27.28,
+      "anomaly": 0.79,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1976,
+      "total_sst": 27.28,
+      "anomaly": 0.81,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1976,
+      "total_sst": 27.28,
+      "anomaly": 0.84,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1977,
+      "total_sst": 27.19,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1977,
+      "total_sst": 27.33,
+      "anomaly": 0.66,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1977,
+      "total_sst": 27.35,
+      "anomaly": 0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1977,
+      "total_sst": 27.58,
+      "anomaly": 0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1977,
+      "total_sst": 27.7,
+      "anomaly": 0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1977,
+      "total_sst": 27.75,
+      "anomaly": 0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1977,
+      "total_sst": 27.37,
+      "anomaly": 0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1977,
+      "total_sst": 27.04,
+      "anomaly": 0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1977,
+      "total_sst": 26.97,
+      "anomaly": 0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1977,
+      "total_sst": 27.17,
+      "anomaly": 0.68,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1977,
+      "total_sst": 27.31,
+      "anomaly": 0.84,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1977,
+      "total_sst": 27.25,
+      "anomaly": 0.82,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1978,
+      "total_sst": 27.18,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1978,
+      "total_sst": 27.19,
+      "anomaly": 0.52,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1978,
+      "total_sst": 27.19,
+      "anomaly": 0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1978,
+      "total_sst": 27.26,
+      "anomaly": -0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1978,
+      "total_sst": 27.17,
+      "anomaly": -0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1978,
+      "total_sst": 27.05,
+      "anomaly": -0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1978,
+      "total_sst": 26.61,
+      "anomaly": -0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1978,
+      "total_sst": 26.32,
+      "anomaly": -0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1978,
+      "total_sst": 26.08,
+      "anomaly": -0.44,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1978,
+      "total_sst": 26.22,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1978,
+      "total_sst": 26.4,
+      "anomaly": -0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1978,
+      "total_sst": 26.54,
+      "anomaly": 0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1979,
+      "total_sst": 26.67,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1979,
+      "total_sst": 26.88,
+      "anomaly": 0.21,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1979,
+      "total_sst": 27.31,
+      "anomaly": 0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1979,
+      "total_sst": 27.64,
+      "anomaly": 0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1979,
+      "total_sst": 27.73,
+      "anomaly": 0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1979,
+      "total_sst": 27.43,
+      "anomaly": 0.14,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1979,
+      "total_sst": 27.07,
+      "anomaly": 0.09,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1979,
+      "total_sst": 26.91,
+      "anomaly": 0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1979,
+      "total_sst": 26.86,
+      "anomaly": 0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1979,
+      "total_sst": 26.96,
+      "anomaly": 0.47,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1979,
+      "total_sst": 26.97,
+      "anomaly": 0.5,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1979,
+      "total_sst": 27.07,
+      "anomaly": 0.64,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1980,
+      "total_sst": 27.09,
+      "anomaly": 0.62,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1980,
+      "total_sst": 27.14,
+      "anomaly": 0.47,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1980,
+      "total_sst": 27.37,
+      "anomaly": 0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1980,
+      "total_sst": 27.67,
+      "anomaly": 0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1980,
+      "total_sst": 27.9,
+      "anomaly": 0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1980,
+      "total_sst": 27.68,
+      "anomaly": 0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1980,
+      "total_sst": 27.16,
+      "anomaly": 0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1980,
+      "total_sst": 26.62,
+      "anomaly": -0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1980,
+      "total_sst": 26.36,
+      "anomaly": -0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1980,
+      "total_sst": 26.42,
+      "anomaly": -0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1980,
+      "total_sst": 26.55,
+      "anomaly": 0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1980,
+      "total_sst": 26.44,
+      "anomaly": -0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1981,
+      "total_sst": 26.31,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1981,
+      "total_sst": 26.4,
+      "anomaly": -0.42,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1981,
+      "total_sst": 26.76,
+      "anomaly": -0.41,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1981,
+      "total_sst": 27.21,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1981,
+      "total_sst": 27.3,
+      "anomaly": -0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1981,
+      "total_sst": 27.12,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1981,
+      "total_sst": 26.77,
+      "anomaly": -0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1981,
+      "total_sst": 26.51,
+      "anomaly": -0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1981,
+      "total_sst": 26.49,
+      "anomaly": -0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1981,
+      "total_sst": 26.38,
+      "anomaly": -0.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1981,
+      "total_sst": 26.34,
+      "anomaly": -0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1981,
+      "total_sst": 26.4,
+      "anomaly": -0.14,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1982,
+      "total_sst": 26.55,
+      "anomaly": -0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1982,
+      "total_sst": 26.83,
+      "anomaly": 0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1982,
+      "total_sst": 27.23,
+      "anomaly": 0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1982,
+      "total_sst": 27.82,
+      "anomaly": 0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1982,
+      "total_sst": 28.23,
+      "anomaly": 0.65,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1982,
+      "total_sst": 28.12,
+      "anomaly": 0.73,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1982,
+      "total_sst": 27.82,
+      "anomaly": 0.78,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1982,
+      "total_sst": 27.72,
+      "anomaly": 0.99,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1982,
+      "total_sst": 28.02,
+      "anomaly": 1.45,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1982,
+      "total_sst": 28.36,
+      "anomaly": 1.82,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1982,
+      "total_sst": 28.56,
+      "anomaly": 2.03,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1982,
+      "total_sst": 28.66,
+      "anomaly": 2.12,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1983,
+      "total_sst": 28.74,
+      "anomaly": 2.14,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1983,
+      "total_sst": 28.73,
+      "anomaly": 1.91,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1983,
+      "total_sst": 28.69,
+      "anomaly": 1.52,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1983,
+      "total_sst": 28.7,
+      "anomaly": 1.23,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1983,
+      "total_sst": 28.53,
+      "anomaly": 0.95,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1983,
+      "total_sst": 28.01,
+      "anomaly": 0.62,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1983,
+      "total_sst": 27.29,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1983,
+      "total_sst": 26.67,
+      "anomaly": -0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1983,
+      "total_sst": 26.14,
+      "anomaly": -0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1983,
+      "total_sst": 25.78,
+      "anomaly": -0.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1983,
+      "total_sst": 25.56,
+      "anomaly": -0.96,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1983,
+      "total_sst": 25.65,
+      "anomaly": -0.89,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1984,
+      "total_sst": 25.97,
+      "anomaly": -0.63,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1984,
+      "total_sst": 26.3,
+      "anomaly": -0.51,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1984,
+      "total_sst": 26.78,
+      "anomaly": -0.38,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1984,
+      "total_sst": 27.0,
+      "anomaly": -0.47,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1984,
+      "total_sst": 27.04,
+      "anomaly": -0.55,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1984,
+      "total_sst": 26.87,
+      "anomaly": -0.52,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1984,
+      "total_sst": 26.65,
+      "anomaly": -0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1984,
+      "total_sst": 26.51,
+      "anomaly": -0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1984,
+      "total_sst": 26.25,
+      "anomaly": -0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1984,
+      "total_sst": 25.92,
+      "anomaly": -0.62,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1984,
+      "total_sst": 25.57,
+      "anomaly": -0.95,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1984,
+      "total_sst": 25.48,
+      "anomaly": -1.06,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1985,
+      "total_sst": 25.59,
+      "anomaly": -1.01,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1985,
+      "total_sst": 25.95,
+      "anomaly": -0.86,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1985,
+      "total_sst": 26.31,
+      "anomaly": -0.85,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1985,
+      "total_sst": 26.67,
+      "anomaly": -0.8,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1985,
+      "total_sst": 26.8,
+      "anomaly": -0.79,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1985,
+      "total_sst": 26.79,
+      "anomaly": -0.6,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1985,
+      "total_sst": 26.6,
+      "anomaly": -0.44,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1985,
+      "total_sst": 26.41,
+      "anomaly": -0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1985,
+      "total_sst": 26.26,
+      "anomaly": -0.31,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1985,
+      "total_sst": 26.24,
+      "anomaly": -0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1985,
+      "total_sst": 26.25,
+      "anomaly": -0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1985,
+      "total_sst": 26.15,
+      "anomaly": -0.36,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1986,
+      "total_sst": 26.15,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1986,
+      "total_sst": 26.38,
+      "anomaly": -0.38,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1986,
+      "total_sst": 26.89,
+      "anomaly": -0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1986,
+      "total_sst": 27.31,
+      "anomaly": -0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1986,
+      "total_sst": 27.5,
+      "anomaly": -0.09,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1986,
+      "total_sst": 27.42,
+      "anomaly": 0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1986,
+      "total_sst": 27.29,
+      "anomaly": 0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1986,
+      "total_sst": 27.22,
+      "anomaly": 0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1986,
+      "total_sst": 27.24,
+      "anomaly": 0.64,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1986,
+      "total_sst": 27.42,
+      "anomaly": 0.86,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1986,
+      "total_sst": 27.57,
+      "anomaly": 1.06,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1986,
+      "total_sst": 27.69,
+      "anomaly": 1.21,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1987,
+      "total_sst": 27.72,
+      "anomaly": 1.18,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1987,
+      "total_sst": 27.89,
+      "anomaly": 1.13,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1987,
+      "total_sst": 28.16,
+      "anomaly": 1.02,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1987,
+      "total_sst": 28.42,
+      "anomaly": 0.94,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1987,
+      "total_sst": 28.53,
+      "anomaly": 0.95,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1987,
+      "total_sst": 28.51,
+      "anomaly": 1.11,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1987,
+      "total_sst": 28.35,
+      "anomaly": 1.3,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1987,
+      "total_sst": 28.23,
+      "anomaly": 1.46,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1987,
+      "total_sst": 28.1,
+      "anomaly": 1.49,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1987,
+      "total_sst": 27.97,
+      "anomaly": 1.41,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1987,
+      "total_sst": 27.72,
+      "anomaly": 1.2,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1987,
+      "total_sst": 27.49,
+      "anomaly": 1.0,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1988,
+      "total_sst": 27.17,
+      "anomaly": 0.63,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1988,
+      "total_sst": 27.13,
+      "anomaly": 0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1988,
+      "total_sst": 27.11,
+      "anomaly": -0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1988,
+      "total_sst": 27.03,
+      "anomaly": -0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1988,
+      "total_sst": 26.6,
+      "anomaly": -0.99,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1988,
+      "total_sst": 26.09,
+      "anomaly": -1.3,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1988,
+      "total_sst": 25.75,
+      "anomaly": -1.3,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1988,
+      "total_sst": 25.63,
+      "anomaly": -1.14,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1988,
+      "total_sst": 25.34,
+      "anomaly": -1.27,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1988,
+      "total_sst": 25.01,
+      "anomaly": -1.54,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1988,
+      "total_sst": 24.7,
+      "anomaly": -1.81,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1988,
+      "total_sst": 24.64,
+      "anomaly": -1.85,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1989,
+      "total_sst": 24.91,
+      "anomaly": -1.64,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1989,
+      "total_sst": 25.39,
+      "anomaly": -1.38,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1989,
+      "total_sst": 26.05,
+      "anomaly": -1.09,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1989,
+      "total_sst": 26.63,
+      "anomaly": -0.85,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1989,
+      "total_sst": 26.98,
+      "anomaly": -0.61,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1989,
+      "total_sst": 27.0,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1989,
+      "total_sst": 26.68,
+      "anomaly": -0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1989,
+      "total_sst": 26.41,
+      "anomaly": -0.36,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1989,
+      "total_sst": 26.28,
+      "anomaly": -0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1989,
+      "total_sst": 26.31,
+      "anomaly": -0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1989,
+      "total_sst": 26.39,
+      "anomaly": -0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1989,
+      "total_sst": 26.45,
+      "anomaly": -0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1990,
+      "total_sst": 26.73,
+      "anomaly": 0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1990,
+      "total_sst": 26.95,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1990,
+      "total_sst": 27.44,
+      "anomaly": 0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1990,
+      "total_sst": 27.75,
+      "anomaly": 0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1990,
+      "total_sst": 27.84,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1990,
+      "total_sst": 27.65,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1990,
+      "total_sst": 27.31,
+      "anomaly": 0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1990,
+      "total_sst": 27.08,
+      "anomaly": 0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1990,
+      "total_sst": 26.92,
+      "anomaly": 0.31,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1990,
+      "total_sst": 26.83,
+      "anomaly": 0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1990,
+      "total_sst": 26.82,
+      "anomaly": 0.31,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1990,
+      "total_sst": 26.88,
+      "anomaly": 0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1991,
+      "total_sst": 26.99,
+      "anomaly": 0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1991,
+      "total_sst": 27.16,
+      "anomaly": 0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1991,
+      "total_sst": 27.5,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1991,
+      "total_sst": 27.9,
+      "anomaly": 0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1991,
+      "total_sst": 28.21,
+      "anomaly": 0.49,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1991,
+      "total_sst": 28.18,
+      "anomaly": 0.63,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1991,
+      "total_sst": 27.97,
+      "anomaly": 0.77,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1991,
+      "total_sst": 27.6,
+      "anomaly": 0.67,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1991,
+      "total_sst": 27.49,
+      "anomaly": 0.72,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1991,
+      "total_sst": 27.57,
+      "anomaly": 0.83,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1991,
+      "total_sst": 27.89,
+      "anomaly": 1.18,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1991,
+      "total_sst": 28.09,
+      "anomaly": 1.43,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1992,
+      "total_sst": 28.24,
+      "anomaly": 1.54,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1992,
+      "total_sst": 28.4,
+      "anomaly": 1.5,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1992,
+      "total_sst": 28.67,
+      "anomaly": 1.4,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1992,
+      "total_sst": 28.91,
+      "anomaly": 1.3,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1992,
+      "total_sst": 28.8,
+      "anomaly": 1.08,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1992,
+      "total_sst": 28.27,
+      "anomaly": 0.72,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1992,
+      "total_sst": 27.55,
+      "anomaly": 0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1992,
+      "total_sst": 27.0,
+      "anomaly": 0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1992,
+      "total_sst": 26.63,
+      "anomaly": -0.15,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1992,
+      "total_sst": 26.52,
+      "anomaly": -0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1992,
+      "total_sst": 26.47,
+      "anomaly": -0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1992,
+      "total_sst": 26.62,
+      "anomaly": -0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1993,
+      "total_sst": 26.82,
+      "anomaly": 0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1993,
+      "total_sst": 27.21,
+      "anomaly": 0.31,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1993,
+      "total_sst": 27.76,
+      "anomaly": 0.5,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1993,
+      "total_sst": 28.34,
+      "anomaly": 0.73,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1993,
+      "total_sst": 28.48,
+      "anomaly": 0.76,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1993,
+      "total_sst": 28.11,
+      "anomaly": 0.56,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1993,
+      "total_sst": 27.48,
+      "anomaly": 0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1993,
+      "total_sst": 27.14,
+      "anomaly": 0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1993,
+      "total_sst": 26.98,
+      "anomaly": 0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1993,
+      "total_sst": 26.95,
+      "anomaly": 0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1993,
+      "total_sst": 26.9,
+      "anomaly": 0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1993,
+      "total_sst": 26.85,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1994,
+      "total_sst": 26.77,
+      "anomaly": 0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1994,
+      "total_sst": 26.9,
+      "anomaly": 0.0,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1994,
+      "total_sst": 27.31,
+      "anomaly": 0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1994,
+      "total_sst": 27.78,
+      "anomaly": 0.17,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1994,
+      "total_sst": 27.97,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1994,
+      "total_sst": 27.78,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1994,
+      "total_sst": 27.51,
+      "anomaly": 0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1994,
+      "total_sst": 27.22,
+      "anomaly": 0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1994,
+      "total_sst": 27.25,
+      "anomaly": 0.47,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1994,
+      "total_sst": 27.4,
+      "anomaly": 0.66,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1994,
+      "total_sst": 27.64,
+      "anomaly": 0.93,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1994,
+      "total_sst": 27.64,
+      "anomaly": 0.97,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1995,
+      "total_sst": 27.58,
+      "anomaly": 0.88,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1995,
+      "total_sst": 27.56,
+      "anomaly": 0.65,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1995,
+      "total_sst": 27.73,
+      "anomaly": 0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1995,
+      "total_sst": 27.8,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1995,
+      "total_sst": 27.75,
+      "anomaly": 0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1995,
+      "total_sst": 27.43,
+      "anomaly": -0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1995,
+      "total_sst": 26.91,
+      "anomaly": -0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1995,
+      "total_sst": 26.38,
+      "anomaly": -0.55,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1995,
+      "total_sst": 25.97,
+      "anomaly": -0.81,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1995,
+      "total_sst": 25.78,
+      "anomaly": -0.97,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1995,
+      "total_sst": 25.66,
+      "anomaly": -1.05,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1995,
+      "total_sst": 25.64,
+      "anomaly": -1.01,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1996,
+      "total_sst": 25.78,
+      "anomaly": -0.88,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1996,
+      "total_sst": 26.15,
+      "anomaly": -0.7,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1996,
+      "total_sst": 26.72,
+      "anomaly": -0.52,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1996,
+      "total_sst": 27.25,
+      "anomaly": -0.36,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1996,
+      "total_sst": 27.48,
+      "anomaly": -0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1996,
+      "total_sst": 27.3,
+      "anomaly": -0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1996,
+      "total_sst": 26.99,
+      "anomaly": -0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 1996,
+      "total_sst": 26.65,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 1996,
+      "total_sst": 26.45,
+      "anomaly": -0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 1996,
+      "total_sst": 26.35,
+      "anomaly": -0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 1996,
+      "total_sst": 26.24,
+      "anomaly": -0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 1996,
+      "total_sst": 26.18,
+      "anomaly": -0.41,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 1997,
+      "total_sst": 26.23,
+      "anomaly": -0.41,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 1997,
+      "total_sst": 26.59,
+      "anomaly": -0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 1997,
+      "total_sst": 27.21,
+      "anomaly": -0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 1997,
+      "total_sst": 27.9,
+      "anomaly": 0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 1997,
+      "total_sst": 28.44,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 1997,
+      "total_sst": 28.67,
+      "anomaly": 1.13,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 1997,
+      "total_sst": 28.69,
+      "anomaly": 1.48,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 1997,
+      "total_sst": 28.7,
+      "anomaly": 1.79,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 1997,
+      "total_sst": 28.78,
+      "anomaly": 2.04,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 1997,
+      "total_sst": 28.92,
+      "anomaly": 2.24,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 1997,
+      "total_sst": 28.97,
+      "anomaly": 2.34,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 1997,
+      "total_sst": 28.96,
+      "anomaly": 2.37,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 1998,
+      "total_sst": 28.85,
+      "anomaly": 2.22,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 1998,
+      "total_sst": 28.76,
+      "anomaly": 1.91,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 1998,
+      "total_sst": 28.64,
+      "anomaly": 1.4,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 1998,
+      "total_sst": 28.63,
+      "anomaly": 1.03,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 1998,
+      "total_sst": 28.13,
+      "anomaly": 0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 1998,
+      "total_sst": 27.46,
+      "anomaly": -0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 1998,
+      "total_sst": 26.57,
+      "anomaly": -0.63,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1998,
+      "total_sst": 26.08,
+      "anomaly": -0.83,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1998,
+      "total_sst": 25.73,
+      "anomaly": -1.02,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1998,
+      "total_sst": 25.56,
+      "anomaly": -1.12,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1998,
+      "total_sst": 25.32,
+      "anomaly": -1.31,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1998,
+      "total_sst": 25.12,
+      "anomaly": -1.47,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 1999,
+      "total_sst": 25.12,
+      "anomaly": -1.51,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 1999,
+      "total_sst": 25.6,
+      "anomaly": -1.25,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 1999,
+      "total_sst": 26.31,
+      "anomaly": -0.93,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 1999,
+      "total_sst": 26.8,
+      "anomaly": -0.8,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 1999,
+      "total_sst": 26.94,
+      "anomaly": -0.79,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 1999,
+      "total_sst": 26.7,
+      "anomaly": -0.84,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 1999,
+      "total_sst": 26.3,
+      "anomaly": -0.9,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 1999,
+      "total_sst": 25.97,
+      "anomaly": -0.94,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 1999,
+      "total_sst": 25.75,
+      "anomaly": -1.0,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 1999,
+      "total_sst": 25.55,
+      "anomaly": -1.13,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 1999,
+      "total_sst": 25.27,
+      "anomaly": -1.35,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 1999,
+      "total_sst": 25.06,
+      "anomaly": -1.53,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2000,
+      "total_sst": 25.17,
+      "anomaly": -1.47,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2000,
+      "total_sst": 25.59,
+      "anomaly": -1.26,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2000,
+      "total_sst": 26.26,
+      "anomaly": -0.98,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2000,
+      "total_sst": 26.79,
+      "anomaly": -0.81,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 2000,
+      "total_sst": 27.06,
+      "anomaly": -0.67,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 2000,
+      "total_sst": 26.92,
+      "anomaly": -0.62,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 2000,
+      "total_sst": 26.73,
+      "anomaly": -0.48,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2000,
+      "total_sst": 26.52,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2000,
+      "total_sst": 26.33,
+      "anomaly": -0.42,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2000,
+      "total_sst": 26.14,
+      "anomaly": -0.54,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 2000,
+      "total_sst": 25.87,
+      "anomaly": -0.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2000,
+      "total_sst": 25.78,
+      "anomaly": -0.78,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2001,
+      "total_sst": 25.82,
+      "anomaly": -0.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2001,
+      "total_sst": 26.25,
+      "anomaly": -0.54,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2001,
+      "total_sst": 26.79,
+      "anomaly": -0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2001,
+      "total_sst": 27.34,
+      "anomaly": -0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2001,
+      "total_sst": 27.59,
+      "anomaly": -0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2001,
+      "total_sst": 27.53,
+      "anomaly": -0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2001,
+      "total_sst": 27.24,
+      "anomaly": -0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2001,
+      "total_sst": 26.86,
+      "anomaly": -0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2001,
+      "total_sst": 26.67,
+      "anomaly": -0.15,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2001,
+      "total_sst": 26.52,
+      "anomaly": -0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2001,
+      "total_sst": 26.4,
+      "anomaly": -0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2001,
+      "total_sst": 26.32,
+      "anomaly": -0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2002,
+      "total_sst": 26.46,
+      "anomaly": -0.15,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2002,
+      "total_sst": 26.86,
+      "anomaly": 0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2002,
+      "total_sst": 27.34,
+      "anomaly": 0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2002,
+      "total_sst": 27.78,
+      "anomaly": 0.15,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2002,
+      "total_sst": 28.08,
+      "anomaly": 0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2002,
+      "total_sst": 28.05,
+      "anomaly": 0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2002,
+      "total_sst": 27.85,
+      "anomaly": 0.57,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 2002,
+      "total_sst": 27.62,
+      "anomaly": 0.63,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 2002,
+      "total_sst": 27.6,
+      "anomaly": 0.78,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 2002,
+      "total_sst": 27.77,
+      "anomaly": 0.99,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2002,
+      "total_sst": 27.92,
+      "anomaly": 1.19,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2002,
+      "total_sst": 27.72,
+      "anomaly": 1.08,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2003,
+      "total_sst": 27.51,
+      "anomaly": 0.9,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2003,
+      "total_sst": 27.39,
+      "anomaly": 0.59,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2003,
+      "total_sst": 27.61,
+      "anomaly": 0.38,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2003,
+      "total_sst": 27.62,
+      "anomaly": -0.01,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2003,
+      "total_sst": 27.6,
+      "anomaly": -0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2003,
+      "total_sst": 27.47,
+      "anomaly": -0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2003,
+      "total_sst": 27.38,
+      "anomaly": 0.09,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2003,
+      "total_sst": 27.13,
+      "anomaly": 0.14,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2003,
+      "total_sst": 27.05,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2003,
+      "total_sst": 27.0,
+      "anomaly": 0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2003,
+      "total_sst": 27.02,
+      "anomaly": 0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2003,
+      "total_sst": 26.93,
+      "anomaly": 0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2004,
+      "total_sst": 26.95,
+      "anomaly": 0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2004,
+      "total_sst": 27.06,
+      "anomaly": 0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2004,
+      "total_sst": 27.41,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2004,
+      "total_sst": 27.72,
+      "anomaly": 0.1,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2004,
+      "total_sst": 27.9,
+      "anomaly": 0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2004,
+      "total_sst": 27.83,
+      "anomaly": 0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2004,
+      "total_sst": 27.67,
+      "anomaly": 0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2004,
+      "total_sst": 27.53,
+      "anomaly": 0.54,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 2004,
+      "total_sst": 27.4,
+      "anomaly": 0.58,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 2004,
+      "total_sst": 27.38,
+      "anomaly": 0.61,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2004,
+      "total_sst": 27.37,
+      "anomaly": 0.64,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2004,
+      "total_sst": 27.34,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2005,
+      "total_sst": 27.23,
+      "anomaly": 0.62,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2005,
+      "total_sst": 27.35,
+      "anomaly": 0.55,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2005,
+      "total_sst": 27.62,
+      "anomaly": 0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2005,
+      "total_sst": 27.99,
+      "anomaly": 0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2005,
+      "total_sst": 28.05,
+      "anomaly": 0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2005,
+      "total_sst": 27.7,
+      "anomaly": 0.09,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2005,
+      "total_sst": 27.24,
+      "anomaly": -0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2005,
+      "total_sst": 26.85,
+      "anomaly": -0.14,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2005,
+      "total_sst": 26.71,
+      "anomaly": -0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2005,
+      "total_sst": 26.5,
+      "anomaly": -0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2005,
+      "total_sst": 26.16,
+      "anomaly": -0.57,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2005,
+      "total_sst": 25.86,
+      "anomaly": -0.82,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2006,
+      "total_sst": 25.83,
+      "anomaly": -0.86,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2006,
+      "total_sst": 26.11,
+      "anomaly": -0.8,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2006,
+      "total_sst": 26.71,
+      "anomaly": -0.63,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2006,
+      "total_sst": 27.28,
+      "anomaly": -0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2006,
+      "total_sst": 27.69,
+      "anomaly": -0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2006,
+      "total_sst": 27.63,
+      "anomaly": -0.05,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2006,
+      "total_sst": 27.45,
+      "anomaly": 0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2006,
+      "total_sst": 27.32,
+      "anomaly": 0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2006,
+      "total_sst": 27.34,
+      "anomaly": 0.54,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 2006,
+      "total_sst": 27.47,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2006,
+      "total_sst": 27.6,
+      "anomaly": 0.88,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2006,
+      "total_sst": 27.55,
+      "anomaly": 0.88,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2007,
+      "total_sst": 27.3,
+      "anomaly": 0.62,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2007,
+      "total_sst": 27.1,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2007,
+      "total_sst": 27.22,
+      "anomaly": -0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2007,
+      "total_sst": 27.41,
+      "anomaly": -0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2007,
+      "total_sst": 27.54,
+      "anomaly": -0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2007,
+      "total_sst": 27.27,
+      "anomaly": -0.41,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2007,
+      "total_sst": 26.84,
+      "anomaly": -0.49,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2007,
+      "total_sst": 26.22,
+      "anomaly": -0.77,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 2007,
+      "total_sst": 25.75,
+      "anomaly": -1.05,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 2007,
+      "total_sst": 25.38,
+      "anomaly": -1.38,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 2007,
+      "total_sst": 25.15,
+      "anomaly": -1.57,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2007,
+      "total_sst": 24.95,
+      "anomaly": -1.72,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2008,
+      "total_sst": 24.92,
+      "anomaly": -1.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2008,
+      "total_sst": 25.29,
+      "anomaly": -1.61,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2008,
+      "total_sst": 25.97,
+      "anomaly": -1.37,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2008,
+      "total_sst": 26.69,
+      "anomaly": -1.05,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 2008,
+      "total_sst": 27.03,
+      "anomaly": -0.85,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 2008,
+      "total_sst": 27.13,
+      "anomaly": -0.56,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 2008,
+      "total_sst": 26.99,
+      "anomaly": -0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2008,
+      "total_sst": 26.78,
+      "anomaly": -0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2008,
+      "total_sst": 26.55,
+      "anomaly": -0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2008,
+      "total_sst": 26.4,
+      "anomaly": -0.36,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2008,
+      "total_sst": 26.15,
+      "anomaly": -0.57,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2008,
+      "total_sst": 25.87,
+      "anomaly": -0.79,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2009,
+      "total_sst": 25.79,
+      "anomaly": -0.89,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2009,
+      "total_sst": 26.07,
+      "anomaly": -0.84,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2009,
+      "total_sst": 26.71,
+      "anomaly": -0.63,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2009,
+      "total_sst": 27.38,
+      "anomaly": -0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2009,
+      "total_sst": 27.91,
+      "anomaly": 0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2009,
+      "total_sst": 28.03,
+      "anomaly": 0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2009,
+      "total_sst": 27.82,
+      "anomaly": 0.5,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 2009,
+      "total_sst": 27.55,
+      "anomaly": 0.56,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 2009,
+      "total_sst": 27.46,
+      "anomaly": 0.66,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 2009,
+      "total_sst": 27.68,
+      "anomaly": 0.92,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2009,
+      "total_sst": 28.02,
+      "anomaly": 1.31,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2009,
+      "total_sst": 28.16,
+      "anomaly": 1.5,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2010,
+      "total_sst": 28.15,
+      "anomaly": 1.47,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2010,
+      "total_sst": 28.11,
+      "anomaly": 1.21,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2010,
+      "total_sst": 28.22,
+      "anomaly": 0.88,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 2010,
+      "total_sst": 28.11,
+      "anomaly": 0.38,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2010,
+      "total_sst": 27.72,
+      "anomaly": -0.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2010,
+      "total_sst": 27.03,
+      "anomaly": -0.66,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 2010,
+      "total_sst": 26.34,
+      "anomaly": -0.98,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 2010,
+      "total_sst": 25.74,
+      "anomaly": -1.24,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 2010,
+      "total_sst": 25.37,
+      "anomaly": -1.43,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 2010,
+      "total_sst": 25.21,
+      "anomaly": -1.54,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 2010,
+      "total_sst": 25.14,
+      "anomaly": -1.57,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Strong La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2010,
+      "total_sst": 25.14,
+      "anomaly": -1.48,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2011,
+      "total_sst": 25.28,
+      "anomaly": -1.29,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2011,
+      "total_sst": 25.72,
+      "anomaly": -1.06,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2011,
+      "total_sst": 26.37,
+      "anomaly": -0.85,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2011,
+      "total_sst": 26.95,
+      "anomaly": -0.68,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 2011,
+      "total_sst": 27.29,
+      "anomaly": -0.5,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 2011,
+      "total_sst": 27.29,
+      "anomaly": -0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2011,
+      "total_sst": 26.92,
+      "anomaly": -0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2011,
+      "total_sst": 26.45,
+      "anomaly": -0.5,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 2011,
+      "total_sst": 26.0,
+      "anomaly": -0.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 2011,
+      "total_sst": 25.77,
+      "anomaly": -0.94,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 2011,
+      "total_sst": 25.63,
+      "anomaly": -1.02,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2011,
+      "total_sst": 25.64,
+      "anomaly": -0.92,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2012,
+      "total_sst": 25.84,
+      "anomaly": -0.71,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2012,
+      "total_sst": 26.22,
+      "anomaly": -0.56,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2012,
+      "total_sst": 26.79,
+      "anomaly": -0.44,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2012,
+      "total_sst": 27.29,
+      "anomaly": -0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2012,
+      "total_sst": 27.62,
+      "anomaly": -0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2012,
+      "total_sst": 27.66,
+      "anomaly": 0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2012,
+      "total_sst": 27.57,
+      "anomaly": 0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2012,
+      "total_sst": 27.35,
+      "anomaly": 0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2012,
+      "total_sst": 27.13,
+      "anomaly": 0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2012,
+      "total_sst": 26.99,
+      "anomaly": 0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2012,
+      "total_sst": 26.78,
+      "anomaly": 0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2012,
+      "total_sst": 26.53,
+      "anomaly": -0.03,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2013,
+      "total_sst": 26.3,
+      "anomaly": -0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2013,
+      "total_sst": 26.5,
+      "anomaly": -0.28,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2013,
+      "total_sst": 27.0,
+      "anomaly": -0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2013,
+      "total_sst": 27.43,
+      "anomaly": -0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2013,
+      "total_sst": 27.49,
+      "anomaly": -0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2013,
+      "total_sst": 27.24,
+      "anomaly": -0.38,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2013,
+      "total_sst": 26.84,
+      "anomaly": -0.45,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2013,
+      "total_sst": 26.61,
+      "anomaly": -0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2013,
+      "total_sst": 26.45,
+      "anomaly": -0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2013,
+      "total_sst": 26.57,
+      "anomaly": -0.14,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2013,
+      "total_sst": 26.53,
+      "anomaly": -0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2013,
+      "total_sst": 26.45,
+      "anomaly": -0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2014,
+      "total_sst": 26.31,
+      "anomaly": -0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2014,
+      "total_sst": 26.57,
+      "anomaly": -0.21,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2014,
+      "total_sst": 27.21,
+      "anomaly": -0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2014,
+      "total_sst": 27.88,
+      "anomaly": 0.25,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2014,
+      "total_sst": 28.14,
+      "anomaly": 0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2014,
+      "total_sst": 27.84,
+      "anomaly": 0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2014,
+      "total_sst": 27.36,
+      "anomaly": 0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2014,
+      "total_sst": 27.03,
+      "anomaly": 0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2014,
+      "total_sst": 27.0,
+      "anomaly": 0.24,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2014,
+      "total_sst": 27.22,
+      "anomaly": 0.51,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2014,
+      "total_sst": 27.35,
+      "anomaly": 0.7,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2014,
+      "total_sst": 27.36,
+      "anomaly": 0.8,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2015,
+      "total_sst": 27.28,
+      "anomaly": 0.73,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2015,
+      "total_sst": 27.43,
+      "anomaly": 0.65,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2015,
+      "total_sst": 27.95,
+      "anomaly": 0.72,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 2015,
+      "total_sst": 28.49,
+      "anomaly": 0.86,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 2015,
+      "total_sst": 28.83,
+      "anomaly": 1.04,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 2015,
+      "total_sst": 28.82,
+      "anomaly": 1.19,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 2015,
+      "total_sst": 28.73,
+      "anomaly": 1.44,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 2015,
+      "total_sst": 28.69,
+      "anomaly": 1.73,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 2015,
+      "total_sst": 28.79,
+      "anomaly": 2.02,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 2015,
+      "total_sst": 28.99,
+      "anomaly": 2.28,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2015,
+      "total_sst": 29.1,
+      "anomaly": 2.45,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2015,
+      "total_sst": 29.15,
+      "anomaly": 2.59,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2016,
+      "total_sst": 29.05,
+      "anomaly": 2.5,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2016,
+      "total_sst": 28.99,
+      "anomaly": 2.21,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Very Strong El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2016,
+      "total_sst": 28.92,
+      "anomaly": 1.69,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 2016,
+      "total_sst": 28.74,
+      "anomaly": 1.11,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 2016,
+      "total_sst": 28.37,
+      "anomaly": 0.57,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 2016,
+      "total_sst": 27.72,
+      "anomaly": 0.09,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2016,
+      "total_sst": 27.1,
+      "anomaly": -0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2016,
+      "total_sst": 26.62,
+      "anomaly": -0.34,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2016,
+      "total_sst": 26.34,
+      "anomaly": -0.42,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2016,
+      "total_sst": 26.2,
+      "anomaly": -0.51,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2016,
+      "total_sst": 26.16,
+      "anomaly": -0.49,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2016,
+      "total_sst": 26.19,
+      "anomaly": -0.37,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2017,
+      "total_sst": 26.47,
+      "anomaly": -0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2017,
+      "total_sst": 26.86,
+      "anomaly": 0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2017,
+      "total_sst": 27.5,
+      "anomaly": 0.27,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2017,
+      "total_sst": 27.95,
+      "anomaly": 0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2017,
+      "total_sst": 28.15,
+      "anomaly": 0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2017,
+      "total_sst": 27.94,
+      "anomaly": 0.32,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2017,
+      "total_sst": 27.43,
+      "anomaly": 0.14,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2017,
+      "total_sst": 26.89,
+      "anomaly": -0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2017,
+      "total_sst": 26.54,
+      "anomaly": -0.23,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2017,
+      "total_sst": 26.27,
+      "anomaly": -0.44,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2017,
+      "total_sst": 26.04,
+      "anomaly": -0.61,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2017,
+      "total_sst": 25.8,
+      "anomaly": -0.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2018,
+      "total_sst": 25.83,
+      "anomaly": -0.71,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2018,
+      "total_sst": 26.11,
+      "anomaly": -0.67,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2018,
+      "total_sst": 26.68,
+      "anomaly": -0.55,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2018,
+      "total_sst": 27.28,
+      "anomaly": -0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2018,
+      "total_sst": 27.72,
+      "anomaly": -0.07,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2018,
+      "total_sst": 27.76,
+      "anomaly": 0.13,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2018,
+      "total_sst": 27.49,
+      "anomaly": 0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2018,
+      "total_sst": 27.25,
+      "anomaly": 0.3,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2018,
+      "total_sst": 27.28,
+      "anomaly": 0.52,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 2018,
+      "total_sst": 27.53,
+      "anomaly": 0.82,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2018,
+      "total_sst": 27.69,
+      "anomaly": 1.04,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2018,
+      "total_sst": 27.61,
+      "anomaly": 1.05,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2019,
+      "total_sst": 27.54,
+      "anomaly": 0.99,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2019,
+      "total_sst": 27.72,
+      "anomaly": 0.94,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2019,
+      "total_sst": 28.1,
+      "anomaly": 0.87,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 2019,
+      "total_sst": 28.45,
+      "anomaly": 0.82,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 2019,
+      "total_sst": 28.5,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MJJ",
+      "year": 2019,
+      "total_sst": 28.21,
+      "anomaly": 0.59,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 2019,
+      "total_sst": 27.67,
+      "anomaly": 0.38,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2019,
+      "total_sst": 27.16,
+      "anomaly": 0.2,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2019,
+      "total_sst": 27.07,
+      "anomaly": 0.31,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2019,
+      "total_sst": 27.22,
+      "anomaly": 0.51,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2019,
+      "total_sst": 27.37,
+      "anomaly": 0.72,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2019,
+      "total_sst": 27.31,
+      "anomaly": 0.75,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2020,
+      "total_sst": 27.25,
+      "anomaly": 0.71,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2020,
+      "total_sst": 27.44,
+      "anomaly": 0.66,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2020,
+      "total_sst": 27.8,
+      "anomaly": 0.57,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 2020,
+      "total_sst": 27.97,
+      "anomaly": 0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2020,
+      "total_sst": 27.83,
+      "anomaly": 0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2020,
+      "total_sst": 27.45,
+      "anomaly": -0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2020,
+      "total_sst": 27.0,
+      "anomaly": -0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2020,
+      "total_sst": 26.52,
+      "anomaly": -0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2020,
+      "total_sst": 25.99,
+      "anomaly": -0.77,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 2020,
+      "total_sst": 25.71,
+      "anomaly": -1.0,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 2020,
+      "total_sst": 25.54,
+      "anomaly": -1.11,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2020,
+      "total_sst": 25.5,
+      "anomaly": -1.06,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Moderate La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2021,
+      "total_sst": 25.55,
+      "anomaly": -0.99,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2021,
+      "total_sst": 25.92,
+      "anomaly": -0.85,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2021,
+      "total_sst": 26.48,
+      "anomaly": -0.74,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2021,
+      "total_sst": 27.07,
+      "anomaly": -0.56,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 2021,
+      "total_sst": 27.39,
+      "anomaly": -0.4,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2021,
+      "total_sst": 27.31,
+      "anomaly": -0.31,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2021,
+      "total_sst": 26.95,
+      "anomaly": -0.35,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2021,
+      "total_sst": 26.49,
+      "anomaly": -0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2021,
+      "total_sst": 26.13,
+      "anomaly": -0.64,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 2021,
+      "total_sst": 25.94,
+      "anomaly": -0.77,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 2021,
+      "total_sst": 25.74,
+      "anomaly": -0.91,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2021,
+      "total_sst": 25.73,
+      "anomaly": -0.83,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2022,
+      "total_sst": 25.79,
+      "anomaly": -0.76,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2022,
+      "total_sst": 26.09,
+      "anomaly": -0.68,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "FMA",
+      "year": 2022,
+      "total_sst": 26.46,
+      "anomaly": -0.77,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MAM",
+      "year": 2022,
+      "total_sst": 26.77,
+      "anomaly": -0.86,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "AMJ",
+      "year": 2022,
+      "total_sst": 26.96,
+      "anomaly": -0.83,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "MJJ",
+      "year": 2022,
+      "total_sst": 26.9,
+      "anomaly": -0.73,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JJA",
+      "year": 2022,
+      "total_sst": 26.59,
+      "anomaly": -0.7,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JAS",
+      "year": 2022,
+      "total_sst": 26.18,
+      "anomaly": -0.78,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "ASO",
+      "year": 2022,
+      "total_sst": 25.89,
+      "anomaly": -0.87,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "SON",
+      "year": 2022,
+      "total_sst": 25.82,
+      "anomaly": -0.89,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "OND",
+      "year": 2022,
+      "total_sst": 25.83,
+      "anomaly": -0.82,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "NDJ",
+      "year": 2022,
+      "total_sst": 25.86,
+      "anomaly": -0.7,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "DJF",
+      "year": 2023,
+      "total_sst": 26.0,
+      "anomaly": -0.55,
+      "phase": "La Ni\u00f1a",
+      "intensity": "Weak La Ni\u00f1a"
+    },
+    {
+      "season": "JFM",
+      "year": 2023,
+      "total_sst": 26.45,
+      "anomaly": -0.33,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2023,
+      "total_sst": 27.12,
+      "anomaly": -0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2023,
+      "total_sst": 27.82,
+      "anomaly": 0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2023,
+      "total_sst": 28.25,
+      "anomaly": 0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2023,
+      "total_sst": 28.36,
+      "anomaly": 0.73,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "JJA",
+      "year": 2023,
+      "total_sst": 28.29,
+      "anomaly": 1.0,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "JAS",
+      "year": 2023,
+      "total_sst": 28.21,
+      "anomaly": 1.25,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "ASO",
+      "year": 2023,
+      "total_sst": 28.26,
+      "anomaly": 1.5,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "SON",
+      "year": 2023,
+      "total_sst": 28.45,
+      "anomaly": 1.74,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "OND",
+      "year": 2023,
+      "total_sst": 28.55,
+      "anomaly": 1.9,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "NDJ",
+      "year": 2023,
+      "total_sst": 28.55,
+      "anomaly": 1.99,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "DJF",
+      "year": 2024,
+      "total_sst": 28.38,
+      "anomaly": 1.84,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "JFM",
+      "year": 2024,
+      "total_sst": 28.3,
+      "anomaly": 1.53,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Strong El Ni\u00f1o"
+    },
+    {
+      "season": "FMA",
+      "year": 2024,
+      "total_sst": 28.4,
+      "anomaly": 1.18,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Moderate El Ni\u00f1o"
+    },
+    {
+      "season": "MAM",
+      "year": 2024,
+      "total_sst": 28.4,
+      "anomaly": 0.77,
+      "phase": "El Ni\u00f1o",
+      "intensity": "Weak El Ni\u00f1o"
+    },
+    {
+      "season": "AMJ",
+      "year": 2024,
+      "total_sst": 28.23,
+      "anomaly": 0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2024,
+      "total_sst": 27.8,
+      "anomaly": 0.18,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2024,
+      "total_sst": 27.35,
+      "anomaly": 0.06,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2024,
+      "total_sst": 26.92,
+      "anomaly": -0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2024,
+      "total_sst": 26.64,
+      "anomaly": -0.12,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2024,
+      "total_sst": 26.52,
+      "anomaly": -0.19,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2024,
+      "total_sst": 26.35,
+      "anomaly": -0.29,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2024,
+      "total_sst": 26.13,
+      "anomaly": -0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2025,
+      "total_sst": 26.09,
+      "anomaly": -0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2025,
+      "total_sst": 26.56,
+      "anomaly": -0.22,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2025,
+      "total_sst": 27.15,
+      "anomaly": -0.08,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2025,
+      "total_sst": 27.65,
+      "anomaly": 0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2025,
+      "total_sst": 27.76,
+      "anomaly": -0.04,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2025,
+      "total_sst": 27.61,
+      "anomaly": -0.02,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2025,
+      "total_sst": 27.18,
+      "anomaly": -0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2025,
+      "total_sst": 26.7,
+      "anomaly": -0.26,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "ASO",
+      "year": 2025,
+      "total_sst": 26.33,
+      "anomaly": -0.43,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "SON",
+      "year": 2025,
+      "total_sst": 26.14,
+      "anomaly": -0.57,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "OND",
+      "year": 2025,
+      "total_sst": 26.04,
+      "anomaly": -0.61,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "NDJ",
+      "year": 2025,
+      "total_sst": 25.96,
+      "anomaly": -0.6,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "DJF",
+      "year": 2026,
+      "total_sst": 26.15,
+      "anomaly": -0.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JFM",
+      "year": 2026,
+      "total_sst": 26.57,
+      "anomaly": -0.21,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "FMA",
+      "year": 2026,
+      "total_sst": 27.34,
+      "anomaly": 0.11,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MAM",
+      "year": 2026,
+      "total_sst": 28.09,
+      "anomaly": 0.46,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "AMJ",
+      "year": 2026,
+      "total_sst": 28.74,
+      "anomaly": 0.95,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "MJJ",
+      "year": 2026,
+      "total_sst": 29.02,
+      "anomaly": 1.39,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JJA",
+      "year": 2026,
+      "total_sst": 29.09,
+      "anomaly": 1.8,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    },
+    {
+      "season": "JAS",
+      "year": 2026,
+      "total_sst": 29.12,
+      "anomaly": 2.16,
+      "phase": "Neutral",
+      "intensity": "Neutral"
+    }
+  ]
+}

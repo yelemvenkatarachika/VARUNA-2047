@@ -1,0 +1,689 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.74,
+          15.91
+        ]
+      },
+      "properties": {
+        "id": "AP",
+        "name": "Andhra Pradesh",
+        "type": "State",
+        "zone": "Southern",
+        "forest_cover_pct": 18.28,
+        "area_sqkm": 162975,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.72,
+          28.21
+        ]
+      },
+      "properties": {
+        "id": "AR",
+        "name": "Arunachal Pradesh",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 79.33,
+        "area_sqkm": 83743,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.93,
+          26.2
+        ]
+      },
+      "properties": {
+        "id": "AS",
+        "name": "Assam",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 34.21,
+        "area_sqkm": 78438,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.31,
+          25.09
+        ]
+      },
+      "properties": {
+        "id": "BR",
+        "name": "Bihar",
+        "type": "State",
+        "zone": "Eastern",
+        "forest_cover_pct": 7.84,
+        "area_sqkm": 94163,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.8,
+          21.3
+        ]
+      },
+      "properties": {
+        "id": "CG",
+        "name": "Chhattisgarh",
+        "type": "State",
+        "zone": "Central",
+        "forest_cover_pct": 41.21,
+        "area_sqkm": 135192,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.12,
+          15.29
+        ]
+      },
+      "properties": {
+        "id": "GA",
+        "name": "Goa",
+        "type": "State",
+        "zone": "Western",
+        "forest_cover_pct": 60.62,
+        "area_sqkm": 3702,
+        "rank": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.19,
+          22.25
+        ]
+      },
+      "properties": {
+        "id": "GJ",
+        "name": "Gujarat",
+        "type": "State",
+        "zone": "Western",
+        "forest_cover_pct": 7.61,
+        "area_sqkm": 196024,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.08,
+          29.05
+        ]
+      },
+      "properties": {
+        "id": "HR",
+        "name": "Haryana",
+        "type": "State",
+        "zone": "Northern",
+        "forest_cover_pct": 3.63,
+        "area_sqkm": 44212,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17,
+          31.1
+        ]
+      },
+      "properties": {
+        "id": "HP",
+        "name": "Himachal Pradesh",
+        "type": "State",
+        "zone": "Northern",
+        "forest_cover_pct": 27.73,
+        "area_sqkm": 55673,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.33,
+          23.61
+        ]
+      },
+      "properties": {
+        "id": "JH",
+        "name": "Jharkhand",
+        "type": "State",
+        "zone": "Eastern",
+        "forest_cover_pct": 29.76,
+        "area_sqkm": 79716,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.71,
+          15.31
+        ]
+      },
+      "properties": {
+        "id": "KA",
+        "name": "Karnataka",
+        "type": "State",
+        "zone": "Southern",
+        "forest_cover_pct": 20.19,
+        "area_sqkm": 191791,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.27,
+          10.85
+        ]
+      },
+      "properties": {
+        "id": "KL",
+        "name": "Kerala",
+        "type": "State",
+        "zone": "Southern",
+        "forest_cover_pct": 54.7,
+        "area_sqkm": 38863,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.41,
+          23.47
+        ]
+      },
+      "properties": {
+        "id": "MP",
+        "name": "Madhya Pradesh",
+        "type": "State",
+        "zone": "Central",
+        "forest_cover_pct": 25.14,
+        "area_sqkm": 308252,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.71,
+          19.75
+        ]
+      },
+      "properties": {
+        "id": "MH",
+        "name": "Maharashtra",
+        "type": "State",
+        "zone": "Western",
+        "forest_cover_pct": 16.51,
+        "area_sqkm": 307713,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.9,
+          24.66
+        ]
+      },
+      "properties": {
+        "id": "MN",
+        "name": "Manipur",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 74.34,
+        "area_sqkm": 22327,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.36,
+          25.46
+        ]
+      },
+      "properties": {
+        "id": "ML",
+        "name": "Meghalaya",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 76.0,
+        "area_sqkm": 22429,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.93,
+          23.16
+        ]
+      },
+      "properties": {
+        "id": "MZ",
+        "name": "Mizoram",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 84.53,
+        "area_sqkm": 21081,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.56,
+          26.15
+        ]
+      },
+      "properties": {
+        "id": "NL",
+        "name": "Nagaland",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 73.9,
+        "area_sqkm": 16579,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.41,
+          20.95
+        ]
+      },
+      "properties": {
+        "id": "OD",
+        "name": "Odisha",
+        "type": "State",
+        "zone": "Eastern",
+        "forest_cover_pct": 33.5,
+        "area_sqkm": 155707,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.34,
+          31.14
+        ]
+      },
+      "properties": {
+        "id": "PB",
+        "name": "Punjab",
+        "type": "State",
+        "zone": "Northern",
+        "forest_cover_pct": 3.67,
+        "area_sqkm": 50362,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.21,
+          27.02
+        ]
+      },
+      "properties": {
+        "id": "RJ",
+        "name": "Rajasthan",
+        "type": "State",
+        "zone": "Northern",
+        "forest_cover_pct": 4.87,
+        "area_sqkm": 342239,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.51,
+          27.53
+        ]
+      },
+      "properties": {
+        "id": "SK",
+        "name": "Sikkim",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 47.08,
+        "area_sqkm": 7096,
+        "rank": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.65,
+          11.12
+        ]
+      },
+      "properties": {
+        "id": "TN",
+        "name": "Tamil Nadu",
+        "type": "State",
+        "zone": "Southern",
+        "forest_cover_pct": 20.31,
+        "area_sqkm": 130060,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.01,
+          18.11
+        ]
+      },
+      "properties": {
+        "id": "TS",
+        "name": "Telangana",
+        "type": "State",
+        "zone": "Southern",
+        "forest_cover_pct": 18.93,
+        "area_sqkm": 112077,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.98,
+          23.94
+        ]
+      },
+      "properties": {
+        "id": "TR",
+        "name": "Tripura",
+        "type": "State",
+        "zone": "North Eastern",
+        "forest_cover_pct": 73.68,
+        "area_sqkm": 10486,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.94,
+          26.84
+        ]
+      },
+      "properties": {
+        "id": "UP",
+        "name": "Uttar Pradesh",
+        "type": "State",
+        "zone": "Northern",
+        "forest_cover_pct": 6.15,
+        "area_sqkm": 240928,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3,
+          30.1
+        ]
+      },
+      "properties": {
+        "id": "UK",
+        "name": "Uttarakhand",
+        "type": "State",
+        "zone": "Northern",
+        "forest_cover_pct": 45.44,
+        "area_sqkm": 53483,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.85,
+          23.16
+        ]
+      },
+      "properties": {
+        "id": "WB",
+        "name": "West Bengal",
+        "type": "State",
+        "zone": "Eastern",
+        "forest_cover_pct": 18.96,
+        "area_sqkm": 88752,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.65,
+          11.74
+        ]
+      },
+      "properties": {
+        "id": "AN",
+        "name": "Andaman and Nicobar Islands",
+        "type": "Union Territory",
+        "zone": "Island",
+        "forest_cover_pct": 81.74,
+        "area_sqkm": 8249,
+        "rank": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.77,
+          30.73
+        ]
+      },
+      "properties": {
+        "id": "CH",
+        "name": "Chandigarh",
+        "type": "Union Territory",
+        "zone": "Northern",
+        "forest_cover_pct": 20.18,
+        "area_sqkm": 114,
+        "rank": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0,
+          20.3
+        ]
+      },
+      "properties": {
+        "id": "DN",
+        "name": "Dadra and Nagar Haveli and Daman and Diu",
+        "type": "Union Territory",
+        "zone": "Western",
+        "forest_cover_pct": 37.65,
+        "area_sqkm": 603,
+        "rank": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1,
+          28.7
+        ]
+      },
+      "properties": {
+        "id": "DL",
+        "name": "Delhi",
+        "type": "Union Territory",
+        "zone": "Northern",
+        "forest_cover_pct": 13.15,
+        "area_sqkm": 1483,
+        "rank": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.79,
+          33.77
+        ]
+      },
+      "properties": {
+        "id": "JK",
+        "name": "Jammu and Kashmir",
+        "type": "Union Territory",
+        "zone": "Northern",
+        "forest_cover_pct": 50.63,
+        "area_sqkm": 42241,
+        "rank": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.57,
+          34.15
+        ]
+      },
+      "properties": {
+        "id": "LA",
+        "name": "Ladakh",
+        "type": "Union Territory",
+        "zone": "Northern",
+        "forest_cover_pct": 3.84,
+        "area_sqkm": 59146,
+        "rank": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.64,
+          10.56
+        ]
+      },
+      "properties": {
+        "id": "LD",
+        "name": "Lakshadweep",
+        "type": "Union Territory",
+        "zone": "Island",
+        "forest_cover_pct": 90.0,
+        "area_sqkm": 30,
+        "rank": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8,
+          11.94
+        ]
+      },
+      "properties": {
+        "id": "PY",
+        "name": "Puducherry",
+        "type": "Union Territory",
+        "zone": "Southern",
+        "forest_cover_pct": 10.82,
+        "area_sqkm": 490,
+        "rank": 3
+      }
+    }
+  ]
+}
