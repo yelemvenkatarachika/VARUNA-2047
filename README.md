@@ -190,7 +190,7 @@ Ensure the following runtimes are installed on your system:
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/varuna2047/varuna-2047.git
+git clone https://github.com/yelemvenkatarachika/VARUNA-2047.git
 cd varuna-2047
 ```
 
