@@ -1,4 +1,4 @@
-# VARUNA 2047: National Earth Intelligence for Agricultural and Environmental Resilience
+# VARUNA 2047: National Earth Intelligence for Agricultural and Environmental Resilience (YBR8XX)
 
 > **Tagline:** *From Global Climate Signals to Local Agricultural Resilience*  
 > **Event:** Hack for Social Cause (HSC) — VBYLD 2027  
